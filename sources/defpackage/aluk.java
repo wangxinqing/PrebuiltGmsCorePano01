@@ -1,0 +1,8 @@
+package defpackage;
+
+/* renamed from: aluk  reason: default package */
+/* compiled from: :com.google.android.gms@201216073@20.12.16 (080306-306753009) */
+final class aluk implements alsf {
+    public final void a(alse alse) {
+    }
+}

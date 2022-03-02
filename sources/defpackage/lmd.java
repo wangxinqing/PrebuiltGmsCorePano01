@@ -1,0 +1,21 @@
+package defpackage;
+
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.common.data.DataHolder;
+
+/* renamed from: lmd  reason: default package */
+/* compiled from: :com.google.android.gms@201216073@20.12.16 (080306-306753009) */
+public final class lmd extends bhv implements IInterface {
+    public lmd(IBinder iBinder) {
+        super(iBinder, "com.google.android.gms.drive.realtime.internal.IDataHolderCallback");
+    }
+
+    public final void a(DataHolder dataHolder) {
+        Parcel aQ = aQ();
+        bhx.a(aQ, (Parcelable) dataHolder);
+        b(1, aQ);
+    }
+}

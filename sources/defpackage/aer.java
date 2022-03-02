@@ -1,0 +1,12 @@
+package defpackage;
+
+import android.content.res.Resources;
+import android.widget.SpinnerAdapter;
+
+/* renamed from: aer  reason: default package */
+/* compiled from: :com.google.android.gms@201216073@20.12.16 (080306-306753009) */
+public interface aer extends SpinnerAdapter {
+    Resources.Theme a();
+
+    void b();
+}

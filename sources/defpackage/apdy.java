@@ -1,0 +1,32 @@
+package defpackage;
+
+/* renamed from: apdy  reason: default package */
+/* compiled from: :com.google.android.gms@201216073@20.12.16 (080306-306753009) */
+public enum apdy {
+    MCC,
+    MNC,
+    LANGUAGE_STRING,
+    LOCALE_SCRIPT_STRING,
+    REGION_STRING,
+    LOCALE_VARIANT_STRING,
+    SCREEN_LAYOUT_DIRECTION,
+    SMALLEST_SCREEN_WIDTH_DP,
+    SCREEN_WIDTH_DP,
+    SCREEN_HEIGHT_DP,
+    SCREEN_LAYOUT_SIZE,
+    SCREEN_LAYOUT_LONG,
+    SCREEN_LAYOUT_ROUND,
+    COLOR_MODE_WIDE_COLOR_GAMUT,
+    COLOR_MODE_HDR,
+    ORIENTATION,
+    UI_MODE_TYPE,
+    UI_MODE_NIGHT,
+    DENSITY_DPI,
+    TOUCHSCREEN,
+    KEYBOARD_HIDDEN,
+    KEYBOARD,
+    NAVIGATION_HIDDEN,
+    NAVIGATION,
+    SCREEN_SIZE,
+    SDK_VERSION
+}

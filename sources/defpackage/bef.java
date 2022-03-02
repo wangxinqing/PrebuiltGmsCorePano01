@@ -1,0 +1,19 @@
+package defpackage;
+
+import android.content.Context;
+import android.content.res.Resources;
+import android.view.ContextThemeWrapper;
+
+@Deprecated
+/* renamed from: bef  reason: default package */
+/* compiled from: :com.google.android.gms@201216073@20.12.16 (080306-306753009) */
+public final class bef extends ContextThemeWrapper {
+    public bef(Context context, int i) {
+        super(context, i);
+    }
+
+    /* access modifiers changed from: protected */
+    public final void onApplyThemeResource(Resources.Theme theme, int i, boolean z) {
+        theme.applyStyle(i, false);
+    }
+}

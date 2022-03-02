@@ -1,0 +1,155 @@
+package defpackage;
+
+/* renamed from: afbk  reason: default package */
+/* compiled from: :com.google.android.gms@201216073@20.12.16 (080306-306753009) */
+public final class afbk implements aweo {
+    private bapu A;
+    private awef B;
+    private awef C;
+    private bapu D;
+    private awef E;
+    private bapu F;
+    private awef G;
+    private bapu H;
+    private bapu I;
+    private bapu J;
+    private bapu K;
+    private bapu L;
+    private awef M;
+    private awef N;
+    private bapu O;
+    private awef P;
+    private awef Q;
+    private awef R;
+    private awef S;
+    public final afbj a;
+    public awef b;
+    private bapu c;
+    private bapu d;
+    private bapu e;
+    private bapu f;
+    private bapu g;
+    private awef h;
+    private bapu i;
+    private awef j;
+    private awef k;
+    private bapu l;
+    private bapu m;
+    private awef n;
+    private awef o;
+    private bapu p;
+    private awef q;
+    private awef r;
+    private bapu s;
+    private awef t;
+    private awef u;
+    private awef v;
+    private awef w;
+    private bapu x;
+    private awef y;
+    private awef z;
+
+    public afbk() {
+    }
+
+    public final void a(boolean z2) {
+        aweu.a(this.S, z2);
+        aweu.a(this.R, z2);
+        aweu.a(this.Q, z2);
+        aweu.a(this.P, z2);
+        aweu.a(this.N, z2);
+        aweu.a(this.M, z2);
+        aweu.a(this.G, z2);
+        aweu.a(this.E, z2);
+        aweu.a(this.C, z2);
+        aweu.a(this.B, z2);
+        aweu.a(this.z, z2);
+        aweu.a(this.y, z2);
+        aweu.a(this.w, z2);
+        aweu.a(this.v, z2);
+        aweu.a(this.u, z2);
+        aweu.a(this.t, z2);
+        aweu.a(this.r, z2);
+        aweu.a(this.q, z2);
+        aweu.a(this.o, z2);
+        aweu.a(this.n, z2);
+        aweu.a(this.k, z2);
+        aweu.a(this.j, z2);
+        aweu.a(this.h, z2);
+    }
+
+    public afbk(afgc afgc, afbj afbj) {
+        afbj afbj2 = afbj;
+        this.a = afbj2;
+        afbd afbd = new afbd(afbj2);
+        this.c = afbd;
+        this.d = awds.a(afbd);
+        awdt a2 = awdu.a(this);
+        this.e = a2;
+        this.f = awds.a(new afbm(a2, awea.a));
+        afgd a3 = afgd.a(afgc);
+        this.g = a3;
+        this.h = aweu.a((bapu) a3);
+        afbe afbe = new afbe(afbj2);
+        this.i = afbe;
+        awef a4 = aweu.a((bapu) afbe);
+        this.j = a4;
+        this.k = new afbs(this.d, this.f, this.h, a4);
+        this.l = new afbc(afbj2);
+        afax afax = new afax(afbj2);
+        this.m = afax;
+        awef a5 = aweu.a((bapu) afax);
+        this.n = a5;
+        this.o = aerq.a(this.d, this.f, a5);
+        afav afav = new afav(afbj2);
+        this.p = afav;
+        this.q = aweu.a((bapu) afav);
+        this.r = new afaq(this);
+        afge a6 = afge.a(afgc);
+        this.s = a6;
+        awef a7 = aweu.a((bapu) a6);
+        this.t = a7;
+        aesd a8 = aesd.a(this.d, this.f, this.r, a7);
+        this.u = a8;
+        aerm a9 = aerm.a(this.d, this.f, this.q, this.h, a8);
+        this.v = a9;
+        this.w = aerl.a(this.d, this.f, this.q, a9);
+        afba afba = new afba(afbj2);
+        this.x = afba;
+        awef a10 = aweu.a((bapu) afba);
+        this.y = a10;
+        this.z = aerr.a(this.d, this.f, this.o, this.w, a10);
+        afaz afaz = new afaz(afbj2);
+        this.A = afaz;
+        awef a11 = aweu.a((bapu) afaz);
+        this.B = a11;
+        this.C = new afbr(this.d, this.f, a11);
+        afat afat = new afat(afbj2);
+        this.D = afat;
+        this.E = aweu.a((bapu) afat);
+        afbb afbb = new afbb(afbj2);
+        this.F = afbb;
+        this.G = aweu.a((bapu) afbb);
+        this.H = new afau(afbj2);
+        this.I = new afaw(afbj2);
+        this.J = new afas(afbj2);
+        afay afay = new afay(afbj2);
+        this.K = afay;
+        aezv aezv = new aezv(this.H, this.I, this.J, afay, this.x);
+        this.L = aezv;
+        awef a12 = aweu.a((bapu) aezv);
+        this.M = a12;
+        this.N = new afbq(this.d, this.f, this.h, a12);
+        afbf afbf = new afbf(afbj2);
+        this.O = afbf;
+        awef a13 = aweu.a((bapu) afbf);
+        this.P = a13;
+        afbn afbn = new afbn(this.d, this.f, this.h, a13, this.k);
+        this.Q = afbn;
+        afbp afbp = new afbp(this.d, this.f, this.l, this.z, this.C, this.E, this.G, this.N, afbn);
+        this.R = afbp;
+        afbo afbo = new afbo(this.d, this.f, this.h, this.j, this.k, afbp);
+        this.S = afbo;
+        this.b = aweu.a((awef) afbo, (aweo) this);
+    }
+}
