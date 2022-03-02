@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="6dp" android:paddingEnd="6dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/app_icon" android:layout_width="@android:dimen/app_icon_size" android:layout_height="@android:dimen/app_icon_size" android:scaleType="fitCenter" android:contentDescription="@null" android:layout_marginEnd="11dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:ellipsize="marquee" android:id="@+id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:singleLine="true"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/app_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-4dp"/>
+    </LinearLayout>
+</LinearLayout>

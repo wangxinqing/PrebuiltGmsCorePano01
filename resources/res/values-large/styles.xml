@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActivityStyle">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="colorAccent">@color/material_google_blue_500</item>
+        <item name="gf_as_circleDrawableBlackout">@drawable/gf_circle_drawable_blackout_without_stroke</item>
+        <item name="gf_as_circleDrawableBorder">@drawable/gf_circle_drawable_border_light</item>
+        <item name="gf_as_circleDrawableHighlight">@drawable/gf_circle_drawable_highlight_light</item>
+        <item name="gf_as_hairlineColor">@color/material_grey_300</item>
+        <item name="gf_as_infoTextBackgroundColor">@color/material_grey_200</item>
+        <item name="gf_as_menuBackgroundColor">@color/material_grey_100</item>
+        <item name="gf_disabledIconColor">@color/google_grey600</item>
+        <item name="gf_divider">@drawable/gf_divider_light</item>
+        <item name="gf_hintTextColor">@color/google_grey700</item>
+        <item name="gf_isInDarkMode">false</item>
+        <item name="gf_primaryBlueColor">@color/google_blue600</item>
+        <item name="gf_primaryTextColor">@color/google_grey800</item>
+        <item name="gf_secondaryTextColor">@color/google_grey700</item>
+        <item name="gf_surfaceColorElevation1">@color/google_white</item>
+        <item name="gf_surfaceColorElevation3">@color/google_white</item>
+        <item name="gf_systemInfoIcon">@drawable/system_info_light</item>
+        <item name="ghf_greyIconColor">@color/google_grey700</item>
+        <item name="ghf_surfaceColor">@color/google_white</item>
+    </style>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge">
+    </style>
+    <style name="SectionHeader">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+    </style>
+</resources>

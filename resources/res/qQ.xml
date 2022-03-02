@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/quantum_ic_help_vd_theme_24" android:id="@+id/action_help" android:title="@string/common_list_apps_menu_help_and_feedback" app:showAsAction="always"/>
+    <item android:id="@+id/action_debug_items" android:title="@string/discovery_title_debug_mode" android:checkable="true" app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <size android:height="@dimen/interactions_entry_icon_diameter" android:width="@dimen/interactions_entry_icon_diameter"/>
+            <solid android:color="@color/interactions_icon_background_color"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center" android:src="@drawable/product_logo_calendar_color_24"/>
+    </item>
+</layer-list>

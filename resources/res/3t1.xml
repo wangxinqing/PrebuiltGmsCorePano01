@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/family_webview_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.chimera.WebView android:id="@+id/webview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include android:id="@+id/fm_webview_loading_screen" layout="@layout/fm_layout_loading_fullscreen"/>
+    <RelativeLayout android:id="@+id/no_connection" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginLeft="24dp" android:layout_marginTop="104dp" android:layout_marginRight="24dp" android:text="@string/common_network_unavailable" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginHorizontal="24dp"/>
+    </RelativeLayout>
+</merge>

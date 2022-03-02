@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_color">#85ffffff</color>
+    <color name="fast_pair_battery_level_low">#f6aea9</color>
+    <color name="fast_pair_notification_background">#000000</color>
+    <color name="fast_pair_notification_image_outline">#24ffffff</color>
+    <color name="fast_pair_primary_text">#ffffff</color>
+    <color name="googlesettings_color_accent">@color/material2_dark_google_blue_300</color>
+    <color name="googlesettings_color_background">@color/material_grey_black_1000</color>
+    <color name="googlesettings_color_primary">@color/material_grey_black_1000</color>
+    <color name="googlesettings_color_primary_dark">@color/material_grey_black_1000</color>
+    <color name="googlesettings_navbar_color">@color/material_grey_black_1000</color>
+    <color name="googlesettings_navbar_divider">@color/material_grey_black_1000</color>
+    <color name="googlesettings_status_bar">@color/material_grey_black_1000</color>
+    <color name="udc_background_daynight">@color/udc_background_nightmode</color>
+    <color name="udc_md2_highlight_text_color_daynight">@color/udc_md2_highlight_text_color_nightmode</color>
+    <color name="udc_md2_illustration_background_daynight">@color/udc_md2_illustration_background_nightmode</color>
+    <color name="udc_md2_links_color_daynight">@color/udc_md2_links_color_nightmode</color>
+    <color name="udc_md2_negative_btn_text_color_daynight">@color/udc_md2_negative_btn_text_color_nightmode</color>
+    <color name="udc_md2_positive_btn_color_daynight">@color/udc_md2_positive_btn_color_nightmode</color>
+    <color name="udc_md2_positive_btn_text_color_daynight">@color/udc_md2_positive_btn_text_color_nightmode</color>
+    <color name="udc_md2_setting_text_color_daynight">@color/udc_md2_setting_text_color_nightmode</color>
+    <color name="udc_md2_text_color_daynight">@color/udc_md2_text_color_nightmode</color>
+</resources>

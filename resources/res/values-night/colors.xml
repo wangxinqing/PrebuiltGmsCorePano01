@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cards_container_background_color_day_night">@color/cards_container_background_color_night_mode</color>
+    <color name="gm_header_background_collapsed_color_day_night">@color/gm_header_background_collapsed_color_night_mode</color>
+    <color name="gm_header_background_color_day_night">@color/gm_header_background_color_night_mode</color>
+    <color name="gm_horizontal_line_divider_color_day_night">@color/gm_horizontal_line_divider_color_night_mode</color>
+    <color name="gm_layout_selected_focused_blue_day_night">@color/gm_layout_selected_focused_blue_night_mode</color>
+    <color name="gm_quick_action_disabled_button_color_day_night">@color/gm_quick_action_disabled_button_color_night_mode</color>
+    <color name="sharing_activity_background">#3c4043</color>
+    <color name="sharing_color_accent">#8ab4f8</color>
+    <color name="sharing_color_button_text">#000000</color>
+    <color name="sharing_color_description_text">#deffffff</color>
+    <color name="sharing_color_error">#f28b82</color>
+    <color name="sharing_color_primary">#3c4043</color>
+    <color name="sharing_drawable_visibility_bg">#5f6368</color>
+    <color name="sharing_drawable_visibility_icon_back_selected">#aecbfa</color>
+    <color name="sharing_drawable_visibility_icon_front_selected">#8ab4f8</color>
+    <color name="sharing_drawable_visibility_icon_unselected_designating_off">#e8eaed</color>
+    <color name="sharing_drawable_visibility_icon_unselected_designating_on">#bdc1c6</color>
+    <color name="sharing_stroke_color">#a3a4a5</color>
+    <color name="sharing_text_color_disabled">#919191</color>
+    <color name="sharing_text_color_visibility_unselected">#bdc1c6</color>
+    <color name="snackbar_background_color_day_night">@color/snackbar_background_color_night</color>
+    <color name="snackbar_button_color_day_night">@color/snackbar_button_color_night</color>
+    <color name="snackbar_text_color_day_night">@color/snackbar_text_color_night</color>
+</resources>

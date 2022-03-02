@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:paddingTop="8dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <TextView android:textSize="14sp" android:textColor="@color/sharing_color_description_text" android:gravity="center" android:layout_gravity="center" android:id="@+id/file_and_text_preview_title" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="36dp" android:maxLines="1" android:drawablePadding="8dp" android:paddingStart="24dp" android:paddingEnd="24dp"/>
+    <include layout="@layout/sharing_view_media_preview"/>
+    <include layout="@layout/sharing_view_media_preview_multiple"/>
+</FrameLayout>

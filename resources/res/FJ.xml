@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.view.StatusBarBackgroundLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/suw_pattern_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/suw_glif_recycler_template_content"/>
+</com.android.setupwizardlib.view.StatusBarBackgroundLayout>

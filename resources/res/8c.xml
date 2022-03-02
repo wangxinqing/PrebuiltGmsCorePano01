@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:description="@string/nearby_connections_nfc_advertising_description" android:requireDeviceUnlock="false">
+    <aid-group android:category="other">
+        <aid-filter android:name="F00000FE2C"/>
+    </aid-group>
+</host-apdu-service>

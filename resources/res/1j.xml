@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppDataSearch xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <Corpus app:contentProviderUri="content://com.google.android.gms.icing.proxy.sms/appdatasearch/sms" app:corpusId="sms" app:corpusVersion="3" app:schemaOrgType="CreativeWork/ShortMessage" app:trimmable="false">
+        <Section app:noIndex="true" app:schemaOrgProperty="id" app:sectionId="_id"/>
+        <Section app:schemaOrgProperty="type" app:sectionId="type"/>
+        <Section app:schemaOrgProperty="threadId" app:sectionId="thread_id"/>
+        <Section app:indexPrefixes="true" app:schemaOrgProperty="otherPartyAddress" app:sectionId="address" app:subsectionSeparator=","/>
+        <Section app:indexPrefixes="true" app:schemaOrgProperty="receivedTime" app:sectionId="date"/>
+        <Section app:indexPrefixes="true" app:schemaOrgProperty="subject" app:sectionId="subject"/>
+        <Section app:indexPrefixes="true" app:schemaOrgProperty="body" app:sectionId="body">
+            <SectionFeature app:featureType="6"/>
+        </Section>
+        <Section app:schemaOrgProperty="readStatus" app:sectionId="read"/>
+        <Section app:indexPrefixes="true" app:schemaOrgProperty="contentType" app:sectionId="content_type" app:subsectionSeparator=","/>
+        <Section app:noIndex="true" app:schemaOrgProperty="mediaUri" app:sectionId="media_uri"/>
+        <IMECorpus app:inputEnabled="true" app:sourceClass="2" app:toAddressesSection="address" app:userInputSection="type" app:userInputValue="2">
+            <IMESection app:sectionId="subject"/>
+            <IMESection app:sectionId="body"/>
+        </IMECorpus>
+        <GlobalSearchCorpus>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_sms_text_1" app:sectionType="0"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_sms_text_2" app:sectionType="1"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_intent_action_view" app:sectionType="3"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_sms_intent_data" app:sectionType="4"/>
+        </GlobalSearchCorpus>
+    </Corpus>
+    <Corpus app:contentProviderUri="content://com.google.android.gms.icing.proxy.apps" app:corpusId="apps" app:corpusVersion="2" app:schemaOrgType="CreativeWork/SoftwareApplication" app:trimmable="false">
+        <Section app:indexPrefixes="true" app:schemaOrgProperty="name" app:sectionId="name" app:sectionWeight="63"/>
+        <Section app:noIndex="true" app:sectionId="icon_uri"/>
+        <Section app:noIndex="true" app:sectionId="package_name"/>
+        <Section app:noIndex="true" app:sectionId="class_name"/>
+        <Section app:noIndex="true" app:sectionId="last_update_millis"/>
+        <Section app:indexPrefixes="true" app:sectionId="additional_names" app:sectionWeight="1" app:subsectionSeparator="\10"/>
+        <GlobalSearchCorpus app:allowShortcuts="true">
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_apps_text_1" app:sectionType="0"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_apps_icon_uri" app:sectionType="2"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_apps_intent_action" app:sectionType="3"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_apps_intent_data" app:sectionType="4"/>
+        </GlobalSearchCorpus>
+    </Corpus>
+    <Corpus app:contentProviderUri="content://com.google.android.gms.icing.proxy/appdatasearch/contacts_contact_id" app:corpusId="contacts_contact_id" app:corpusVersion="1" app:schemaOrgType="Person" app:trimmable="false">
+        <Section app:sectionId="lookup_key"/>
+        <Section app:noIndex="true" app:sectionId="icon_uri"/>
+        <Section app:indexPrefixes="true" app:sectionId="name" app:sectionWeight="5"/>
+        <Section app:indexPrefixes="true" app:sectionId="givennames" app:sectionWeight="20">
+            <SectionFeature app:featureType="1"/>
+        </Section>
+        <Section app:noIndex="true" app:sectionFormat="2" app:sectionId="email" app:sectionWeight="2" app:subsectionSeparator=""/>
+        <Section app:indexPrefixes="true" app:sectionId="nickname" app:sectionWeight="15" app:subsectionSeparator="">
+            <SectionFeature app:featureType="1"/>
+        </Section>
+        <Section app:noIndex="true" app:sectionId="number" app:subsectionSeparator=""/>
+        <Section app:noIndex="true" app:sectionId="address" app:subsectionSeparator=""/>
+        <Section app:indexPrefixes="true" app:sectionId="phoneticname" app:sectionWeight="10"/>
+        <GlobalSearchCorpus app:allowShortcuts="true">
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_contacts_text_1" app:sectionType="0"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_contacts_text_2" app:sectionType="1"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_contacts_icon_uri" app:sectionType="2"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_intent_action_view" app:sectionType="3"/>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_contacts_intent_data" app:sectionType="4"/>
+        </GlobalSearchCorpus>
+    </Corpus>
+    <Corpus app:contentProviderUri="content://com.google.android.gms.icing.proxy/appdatasearch/emails_data_id" app:corpusId="emails_data_id" app:corpusVersion="1" app:schemaOrgType="ContactPoint" app:trimmable="false">
+        <Section app:sectionId="contact_id"/>
+        <Section app:sectionId="type"/>
+        <Section app:sectionId="label"/>
+        <Section app:sectionId="data"/>
+        <GlobalSearchCorpus>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_contacts_id" app:sectionType="0"/>
+        </GlobalSearchCorpus>
+    </Corpus>
+    <Corpus app:contentProviderUri="content://com.google.android.gms.icing.proxy/appdatasearch/phones_data_id" app:corpusId="phones_data_id" app:corpusVersion="1" app:schemaOrgType="ContactPoint" app:trimmable="false">
+        <Section app:sectionId="contact_id"/>
+        <Section app:sectionId="type"/>
+        <Section app:sectionId="label"/>
+        <Section app:sectionId="data"/>
+        <GlobalSearchCorpus>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_contacts_id" app:sectionType="0"/>
+        </GlobalSearchCorpus>
+    </Corpus>
+    <Corpus app:contentProviderUri="content://com.google.android.gms.icing.proxy/appdatasearch/postals_data_id" app:corpusId="postals_data_id" app:corpusVersion="1" app:schemaOrgType="ContactPoint" app:trimmable="false">
+        <Section app:sectionId="contact_id"/>
+        <Section app:sectionId="type"/>
+        <Section app:sectionId="label"/>
+        <Section app:sectionId="data"/>
+        <GlobalSearchCorpus>
+            <GlobalSearchSection app:sectionContent="@string/icing_section_template_contacts_id" app:sectionType="0"/>
+        </GlobalSearchCorpus>
+    </Corpus>
+</AppDataSearch>

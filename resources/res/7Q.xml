@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/udc_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <view android:id="@+id/udc_consent_scroll_view" android:background="@color/udc_background" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" class="com.google.android.gms.common.widget.phone.ScrollViewWithEvents">
+        <LinearLayout android:orientation="vertical" android:id="@+id/udc_consent_container" android:layout_width="match_parent" android:layout_height="wrap_content" style="UdcConsentContainer"/>
+    </view>
+    <View android:id="@+id/udc_consent_button_bar_divider" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" style="@style/UdcDivider"/>
+    <include layout="@layout/udc_consent_action_container"/>
+</LinearLayout>

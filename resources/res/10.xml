@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/credential_save_confirmation" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/google_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:src="@drawable/googlelogo_standard_color_92x36"/>
+    <TextView android:textAppearance="@style/CredentialsTypographySubheadLight" android:textColorLink="@color/material_google_blue_500" android:id="@+id/credential_save_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="4dp" android:layout_marginRight="24dp" android:layout_marginBottom="4dp"/>
+    <Spinner android:id="@+id/credential_save_account" android:background="@drawable/account_spinner_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="16dp" android:spinnerMode="dropdown"/>
+    <LinearLayout android:gravity="end" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="21dp" android:layout_weight="1" android:layout_marginStart="24dp" android:layout_marginEnd="21dp">
+        <Button android:textColor="@color/material_google_blue_500" android:id="@+id/credential_save_reject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_never" style="@style/CredentialPickerButton"/>
+        <Button android:id="@+id/credential_save_confirm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/credentials_save_confirm_password" android:layout_marginStart="8dp" style="@style/CredentialPickerButtonPrimary">
+            <requestFocus/>
+        </Button>
+    </LinearLayout>
+</LinearLayout>

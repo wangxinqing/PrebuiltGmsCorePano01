@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/Sharing.Settings.AppBarOverlay" android:id="@+id/appbar" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:theme="@style/Sharing.Settings.ToolbarOverlay" android:id="@+id/toolbar" android:background="@null" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:popupTheme="@style/Sharing.Settings.PopupOverlay"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <android.support.v7.widget.SwitchCompat android:id="@+id/enable_switch" style="@style/Sharing.Settings.Toggle"/>
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="?android:attr/listDivider" android:showDividers="middle">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/sharing_settings_subtitle" android:paddingBottom="8dp" android:text="@string/sharing_settings_subtitle_account" style="@style/Sharing.Settings.Subtitle"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/change_account" android:background="?attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="0dp" android:paddingEnd="@dimen/sharing_settings_padding_end">
+                    <com.google.android.gms.nearby.sharing.view.GoogleAccountAvatar android:layout_gravity="center" android:id="@+id/sharing_one_google_account_disc" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginStart="12dp" android:layout_marginEnd="12dp"/>
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/account_name" style="@style/Sharing.Settings.Button.Title"/>
+                        <TextView android:id="@+id/account_email" style="@style/Sharing.Settings.Button.Description"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/device_name" android:background="?attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="@dimen/sharing_settings_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="0dp" android:paddingEnd="@dimen/sharing_settings_padding_end">
+                    <ImageView android:layout_gravity="center" android:src="@drawable/quantum_ic_phone_android_vd_theme_24" style="@style/Sharing.Settings.Icon"/>
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:text="@string/sharing_settings_button_device_name" style="@style/Sharing.Settings.Button.Title"/>
+                        <TextView android:id="@+id/device_name_label" style="@style/Sharing.Settings.Button.Description"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/visibility" android:background="?attr/selectableItemBackground" android:paddingTop="@dimen/sharing_settings_padding_end" android:paddingBottom="@dimen/sharing_settings_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="0dp" android:paddingEnd="@dimen/sharing_settings_padding_end">
+                <ImageView android:layout_gravity="center" android:src="@drawable/quantum_gm_ic_visibility_vd_theme_24" style="@style/Sharing.Settings.Icon"/>
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:text="@string/sharing_settings_button_visibility" style="@style/Sharing.Settings.Button.Title"/>
+                    <TextView android:id="@+id/visibility_label" style="@style/Sharing.Settings.Button.Description"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/data_usage" android:background="?attr/selectableItemBackground" android:paddingTop="@dimen/sharing_settings_padding_end" android:paddingBottom="@dimen/sharing_settings_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight" android:paddingStart="0dp" android:paddingEnd="@dimen/sharing_settings_padding_end">
+                <ImageView android:layout_gravity="center" android:src="@drawable/quantum_gm_ic_compare_arrows_vd_theme_24" style="@style/Sharing.Settings.Icon"/>
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/data_usage_title" style="@style/Sharing.Settings.Button.Title"/>
+                    <TextView android:id="@+id/data_usage_label" style="@style/Sharing.Settings.Button.Description"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="?attr/selectableItemBackground" android:paddingTop="@dimen/sharing_settings_padding_top" android:paddingBottom="@dimen/sharing_settings_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0dp" android:paddingEnd="@dimen/sharing_settings_padding_end">
+                <ImageView android:src="@drawable/quantum_gm_ic_info_outline_vd_theme_24" style="@style/Sharing.Settings.Icon"/>
+                <TextView android:id="@+id/sharing_settings_info_text" android:text="@string/sharing_settings_info" style="@style/Sharing.Settings.Button.Description"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

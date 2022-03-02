@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?android:attr/colorBackground">
+    <LinearLayout android:orientation="vertical" android:id="@+id/card_container" android:paddingLeft="@dimen/card_entry_padding_start" android:paddingTop="@dimen/gm_card_padding" android:paddingRight="@dimen/card_entry_padding_start" android:paddingBottom="@dimen/gm_card_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?attr/textAppearanceSubhead2" android:textColor="?android:attr/textColorPrimary" android:ellipsize="end" android:id="@+id/related_people_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/card_entry_section_margin_top" android:text="@string/profile_people_common_title" android:maxLines="1"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/row1" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/gm_related_person"/>
+            <include layout="@layout/gm_related_person"/>
+            <include layout="@layout/gm_related_person"/>
+            <include layout="@layout/gm_related_person"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/row2" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gm_card_padding">
+            <include layout="@layout/gm_related_person"/>
+            <include layout="@layout/gm_related_person"/>
+            <include layout="@layout/gm_related_person"/>
+            <include layout="@layout/gm_related_person"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

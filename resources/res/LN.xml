@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:paddingLeft="@dimen/gh_version_dialog_large_padding" android:paddingTop="@dimen/gh_version_dialog_large_padding" android:paddingRight="@dimen/gh_version_dialog_large_padding" android:paddingBottom="@dimen/gh_version_dialog_bottom_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/gh_application_logo" android:layout_width="48dp" android:layout_height="48dp" android:scaleType="fitXY" android:importantForAccessibility="no"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/gh_VersionDialogFragmentAppInfoContainerStyle">
+        <TextView android:id="@+id/gh_application_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/gh_appTitleStyle"/>
+        <TextView android:id="@+id/gh_application_version" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/gh_appVersionStyle"/>
+        <TextView android:id="@+id/gh_application_copyright" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gh_version_dialog_copyright_top_margin" android:maxLines="1" style="@style/gh_appCopyrightStyle"/>
+    </LinearLayout>
+</LinearLayout>

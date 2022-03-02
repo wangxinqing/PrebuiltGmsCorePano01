@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/udc_horizontal_margin" android:paddingTop="32dp" android:paddingRight="@dimen/udc_horizontal_margin" android:paddingBottom="32dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+    <TextView android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center"/>
+    <Button android:id="@+id/udc_retry_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/common_retry" android:textAlignment="center"/>
+</LinearLayout>

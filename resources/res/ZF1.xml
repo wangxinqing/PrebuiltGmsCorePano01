@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.SetupWizardLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:sudBackgroundTile="@drawable/common_setup_wizard_illustration_tile" app:sudIllustrationHorizontalTile="@drawable/common_setup_wizard_illustration_horizontal_tile" app:sudIllustrationImage="@drawable/common_setup_wizard_illustration">
+    <LinearLayout android:orientation="vertical" android:id="@+id/emm_activity_body" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <TextView android:textSize="16sp" android:id="@+id/auth_device_management_download_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="34dp" android:text="@string/auth_device_management_download_description" style="@style/SudDescription"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="34dp">
+            <ImageView android:id="@+id/auth_device_management_download_app_icon" android:layout_width="44dp" android:layout_height="44dp" android:importantForAccessibility="no"/>
+            <TextView android:textSize="16sp" android:gravity="center" android:id="@+id/auth_device_management_download_app_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="16dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.SetupWizardLayout>

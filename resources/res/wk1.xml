@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/gm_horizontal_line_divider" android:left="@dimen/gm_card_padding" android:right="@dimen/gm_contact_info_card_entry_divider_start"/>
+</layer-list>

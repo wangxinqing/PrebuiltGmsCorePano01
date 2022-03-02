@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:id="@+id/last_name_edit" android:paddingTop="@dimen/plus_oob_title_field_padding_top" android:hint="@string/plus_last_name" android:inputType="none|text|textCapWords|textNoSuggestions|textEmailAddress|textShortMessage|textPersonName" android:imeOptions="actionNext" android:contentDescription="@string/plus_oob_last_name_content_description" style="@style/plus_oob_EditText"/>
+    <EditText android:id="@+id/first_name_edit" android:layout_marginTop="6dp" android:hint="@string/plus_first_name" android:inputType="none|text|textCapWords|textNoSuggestions|textEmailAddress|textShortMessage|textPersonName" android:imeOptions="actionDone" android:contentDescription="@string/plus_oob_first_name_content_description" style="@style/plus_oob_EditText"/>
+</LinearLayout>

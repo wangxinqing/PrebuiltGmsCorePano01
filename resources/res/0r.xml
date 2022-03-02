@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/fm_cp_title_text_size" android:id="@+id/fm_cp_title" android:background="?android:attr/colorBackground" android:padding="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/TextAppearance.AppCompat.Title"/>
+    <LinearLayout android:orientation="vertical" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/fm_cp_selected_contacts_container" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+            <com.google.android.gms.family.v2.invites.contactpicker.AutoCompleteTextView android:textSize="@dimen/fm_cp_autocomplete_text_size" android:id="@+id/fm_cp_mactv" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@null" android:singleLine="true" android:layout_weight="1" android:imeOptions="actionUnspecified|actionNone|flagNoFullscreen" android:layout_marginStart="14dp" android:layout_marginEnd="14dp"/>
+            <TextView android:gravity="end" android:id="@+id/fm_cp_selection_limit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14dp" android:layout_marginEnd="14dp"/>
+        </LinearLayout>
+        <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="1dp"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/fm_cp_contact_list" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="0dp" android:divider="#ffffff" android:layout_weight="1"/>
+    <TextView android:textSize="16sp" android:textColor="?attr/fmNavButtonTextTint" android:gravity="center" android:id="@+id/fm_cp_confirmation" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="@dimen/fm_cp_confirm_button_height"/>
+</LinearLayout>

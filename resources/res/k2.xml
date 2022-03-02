@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/audience_buttons_top_margin" android:paddingBottom="@dimen/audience_buttons_bottom_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingRight="@dimen/audience_standard_margin" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/audience_standard_margin" style="?android:attr/buttonBarStyle">
+        <Button android:id="@+id/ok" android:layout_width="wrap_content" android:layout_height="@dimen/audience_button_height" android:text="@string/audience_selection_done" android:layout_alignParentRight="true" style="@style/audience.Widget.Button.Auth"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Platform.AppCompat">
+    </style>
+    <style name="Platform.AppCompat.Light">
+    </style>
+    <style name="Platform.V25.AppCompat">
+    </style>
+    <style name="Platform.V25.AppCompat.Light">
+    </style>
+    <style name="common.Theme.Base.GoogleSettings">
+        <item name="colorAccent">@color/material_google_blue_500</item>
+        <item name="colorPrimary">@color/common_nexus_primary</item>
+        <item name="colorPrimaryDark">@color/common_nexus_primary_dark</item>
+    </style>
+    <style name="common.Theme.Base.NoAppCompat.DialogWhenLarge">
+        <item name="android:colorPrimary">@color/common_nexus_primary</item>
+        <item name="android:colorPrimaryDark">@color/common_nexus_primary_dark</item>
+        <item name="android:colorAccent">@color/material_google_blue_400</item>
+    </style>
+    <style name="common.Theme.Base.NoAppCompat.Light.Dialog">
+        <item name="android:colorAccent">@color/material_google_blue_500</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="dividerHorizontal">?android:attr/dividerHorizontal</item>
+    </style>
+    <style name="common.Theme.Base.NoAppCompat.Light.Dialog.MinWidth">
+        <item name="android:colorAccent">@color/material_google_blue_500</item>
+        <item name="buttonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+        <item name="buttonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="dividerHorizontal">?android:attr/dividerHorizontal</item>
+    </style>
+    <style name="common.Theme.GoogleSettings.Dialog">
+        <item name="colorAccent">@color/material_google_blue_500</item>
+    </style>
+    <style name="common.Widget.Base.SwitchBar.GoogleSettings">
+        <item name="colorAccent">@color/material_google_blue_400</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorPrimary">@color/common_nexus_secondary</item>
+    </style>
+</resources>

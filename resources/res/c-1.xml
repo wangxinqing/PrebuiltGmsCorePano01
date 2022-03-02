@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/quantum_ic_enterprise_googblue_24" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:sucUsePartnerResource="false">
+    <LinearLayout android:orientation="vertical" android:id="@+id/emm_activity_body" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <TextView android:gravity="top|bottom|center_vertical|fill_vertical|clip_horizontal" android:id="@+id/auth_device_management_download_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/auth_device_management_download_description" android:lineSpacingMultiplier="1.25" style="@style/SudDescription.Glif"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <ImageView android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/auth_device_management_download_app_icon" android:layout_width="44dp" android:layout_height="44dp" android:importantForAccessibility="no"/>
+            <TextView android:textAppearance="@style/TextAppearance.SudDescription" android:gravity="center" android:id="@+id/auth_device_management_download_app_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="14dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

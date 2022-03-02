@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_width="match_parent" android:layout_height="@dimen/smartdevice_device_list_item_height" android:layout_marginLeft="@dimen/smartdevice_device_item_padding" android:layout_marginTop="@dimen/smartdevice_device_item_padding_half" android:layout_marginRight="@dimen/smartdevice_device_item_padding" android:layout_marginBottom="@dimen/smartdevice_device_item_padding_half" layout="@layout/smartdevice_device_list_item"/>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/item_default_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="noHideDescendants">
+        <com.google.android.places.ui.TouchableMapView android:id="@+id/marker_map" android:layout_width="match_parent" android:layout_height="match_parent" app:uiRotateGestures="false" app:uiTiltGestures="false"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/marker_map_center_overlay" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:alpha="0.6"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/marker_map_center_drop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:src="@drawable/spotlight_poi"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/marker_map_center_cross" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_qu_close_grey"/>
+    </FrameLayout>
+    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/marker_map_my_location_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:src="@drawable/ic_qu_fab_circle" android:contentDescription="@string/place_picker_my_location_button" android:alpha="0.87"/>
+</FrameLayout>

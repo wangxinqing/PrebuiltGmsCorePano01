@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DevicesListToolbar">
+        <item name="android:background">@android:color/black</item>
+    </style>
+    <style name="common.Widget.Base.ActionBar.GoogleSettings">
+    </style>
+    <style name="common.Widget.Base.ActionBar.Style.GoogleSettings">
+    </style>
+    <style name="common.Widget.Base.SwitchBar.GoogleSettings">
+        <item name="colorAccent">@color/googlesettings_color_accent</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="textColorOff">@color/material_grey_black_1000</item>
+        <item name="textColorOn">@color/material_grey_black_1000</item>
+    </style>
+</resources>

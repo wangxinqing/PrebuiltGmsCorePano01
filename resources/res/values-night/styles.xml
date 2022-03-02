@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DayNightDialogActivityStyle">
+    </style>
+    <style name="OneGoogle.AccountParticleDisc.DayNight">
+    </style>
+    <style name="Sharing.CardActivity">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:homeAsUpIndicator">@drawable/quantum_gm_ic_clear_vd_theme_24</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:strokeColor">@color/sharing_stroke_color</item>
+        <item name="android:colorButtonNormal">?attr/colorAccent</item>
+        <item name="android:windowEnterTransition">@transition/sharing_window_enter_transition</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/sharing_window_shared_element_enter_transition</item>
+        <item name="android:windowSharedElementExitTransition">@transition/sharing_window_shared_element_exit_transition</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/sharing_color_primary</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/sharing_window_shared_element_return_transition</item>
+        <item name="android:windowSharedElementReenterTransition">@transition/sharing_window_shared_element_reenter_transition</item>
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="colorAccent">@color/sharing_color_accent</item>
+        <item name="colorButtonNormal">?attr/colorAccent</item>
+        <item name="colorError">@color/sharing_color_error</item>
+        <item name="colorPrimary">@color/sharing_color_primary</item>
+        <item name="colorPrimaryDark">@color/sharing_color_primary</item>
+    </style>
+    <style name="Sharing.ReceiveSurface.PopupOverlay">
+    </style>
+    <style name="Sharing.Settings">
+        <item name="android:windowBackground">@color/sharing_activity_background</item>
+        <item name="android:alertDialogTheme">@style/Sharing.Settings.AlertDialog</item>
+        <item name="colorAccent">@color/sharing_color_accent</item>
+        <item name="colorControlActivated">@color/sharing_color_primary</item>
+        <item name="colorControlNormal">@color/sharing_color_primary</item>
+        <item name="colorError">@color/sharing_color_error</item>
+        <item name="colorPrimary">@color/sharing_color_primary</item>
+        <item name="colorPrimaryDark">@color/sharing_color_primary</item>
+        <item name="colorSurface">@color/sharing_color_primary</item>
+        <item name="colorSwitchThumbNormal">@color/sharing_color_primary</item>
+        <item name="elevation">0dp</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Sharing.Settings.AppBarOverlay">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Sharing.Settings.EditText.Theme">
+        <item name="colorAccent">@color/sharing_color_accent</item>
+        <item name="colorError">@color/sharing_color_error</item>
+        <item name="colorPrimary">@color/sharing_color_accent</item>
+        <item name="colorPrimaryDark">@color/sharing_color_accent</item>
+    </style>
+    <style name="Sharing.Settings.PopupOverlay">
+    </style>
+    <style name="Sharing.Settings.ToolbarOverlay">
+        <item name="android:textColorPrimary">?attr/colorAccent</item>
+        <item name="android:textColorSecondary">?attr/colorAccent</item>
+        <item name="android:background">@null</item>
+        <item name="actionMenuTextColor">?attr/colorAccent</item>
+    </style>
+    <style name="Sharing.Setup.PopupOverlay">
+    </style>
+    <style name="Sharing.Setup.ToolbarOverlay">
+        <item name="actionMenuTextColor">?attr/colorAccent</item>
+        <item name="displayOptions">@null</item>
+    </style>
+    <style name="Sharing.ShareSheet.PopupOverlay">
+    </style>
+    <style name="SudThemeGlif.DayNight">
+    </style>
+    <style name="SudThemeGlifV2.DayNight">
+    </style>
+    <style name="SudThemeGlifV3.DayNight">
+    </style>
+    <style name="SudThemeMaterial.DayNight">
+    </style>
+    <style name="SuwThemeGlif.DayNight">
+    </style>
+    <style name="SuwThemeGlifV2.DayNight">
+    </style>
+    <style name="SuwThemeGlifV3.DayNight">
+    </style>
+    <style name="SuwThemeMaterial.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight">
+    </style>
+    <style name="Theme.AppCompat.DayNight.DarkActionBar">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog">
+    </style>
+    <style name="Theme.AppCompat.DayNight.Dialog.Alert">
+    </style>
+    <style name="Theme.AppCompat.DayNight.NoActionBar">
+    </style>
+    <style name="Theme.GoogleMaterial.DayNight">
+    </style>
+    <style name="Theme.GoogleMaterial.DayNight.NoActionBar">
+    </style>
+    <style name="gf_DayNightActivityStyle">
+    </style>
+    <style name="gh_ChatConversationDayNightActivityStyle">
+    </style>
+    <style name="gh_ChatRequestFormDayNightActivityStyle">
+    </style>
+    <style name="gh_DayNightActivityStyle">
+    </style>
+    <style name="gh_NoActionBarDayNightActivityStyle">
+    </style>
+</resources>

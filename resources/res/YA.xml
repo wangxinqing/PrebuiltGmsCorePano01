@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mention_scroll_view" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/plus_replybox_divider" android:layout_width="match_parent" android:layout_height="2dp"/>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/compose_container" android:background="@color/plus_solid_white" android:padding="6dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <view android:textColor="@color/plus_sharebox_compose_text" android:id="@+id/compose_text" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/plus_replybox_hint_text" android:maxLines="3" android:layout_weight="1" android:inputType="none|text|textCapSentences|textAutoCorrect|textMultiLine|textUri|textShortMessage|textLongMessage" android:imeOptions="actionDone" android:layout_marginEnd="6dp" class="com.google.android.gms.plus.sharebox.MentionMultiAutoCompleteTextView"/>
+            <LinearLayout android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@+id/reply_button" android:background="@android:color/transparent" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/common_reply" android:drawableStart="@drawable/plus_iconic_ic_send_32"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

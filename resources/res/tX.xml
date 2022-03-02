@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="1dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/common.Widget.SelectableItem">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/common_acl_chip_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/chip_background" android:layout_width="32dp" android:layout_height="32dp">
+            <ImageView android:layout_gravity="center" android:id="@+id/chip_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4dp"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textStyle="normal" android:textColor="@color/common_chip_default_text_color" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/chip_text" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:paddingStart="8dp" android:layout_marginEnd="14dp"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/chip_close" android:visibility="gone" android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/common_ic_acl_x" android:alpha="0.4" android:layout_marginStart="-6dp" android:layout_marginEnd="8dp"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:tag="@string/plus_oob_field_view_tag_info" android:layout_marginTop="@dimen/plus_oob_scroll_element_gap_small" style="@style/plus_oob_DescriptionText"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:suwFooter="@layout/car_driving_mode_frx_footer">
+    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SuwContentFrame">
+        <TextView android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SuwDescription.Glif"/>
+        <ViewStub android:id="@+id/layout_progress_stub" android:layout="@layout/suw_progress_bar" android:inflatedId="@+id/suw_layout_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/suw_glif_progress_bar_margin_vertical" android:layout_marginBottom="@dimen/suw_glif_progress_bar_margin_vertical"/>
+        <com.android.setupwizardlib.view.FillContentLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageView android:id="@+id/illustration" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:contentDescription="@null" android:importantForAccessibility="no" style="@style/SuwContentIllustration"/>
+        </com.android.setupwizardlib.view.FillContentLayout>
+        <Button android:id="@+id/tertiary_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SuwGlifButton.Tertiary"/>
+    </LinearLayout>
+</com.android.setupwizardlib.GlifLayout>

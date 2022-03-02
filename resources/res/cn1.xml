@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/prompt_summary_block" android:paddingLeft="@dimen/as_prompt_item_outer_padding" android:paddingTop="@dimen/as_prompt_progress_bar_top_padding" android:paddingRight="@dimen/as_prompt_item_outer_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ProgressBar android:id="@+id/prompt_progress" android:layout_width="match_parent" android:layout_height="@dimen/as_progress_bar_height" android:progressDrawable="?attr/asProgressDrawable" style="?android:attr/progressBarStyleHorizontal"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/prompt_summary_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/as_progress_bar_labels_top_margin">
+        <TextView android:gravity="start" android:id="@+id/prompt_info_lower" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAlignment="viewStart" style="@style/AsStyledTextAppearanceDescription"/>
+        <Space android:layout_width="@dimen/as_progress_bar_inter_label_distance" android:layout_height="1dp"/>
+        <TextView android:gravity="end" android:id="@+id/prompt_info_higher" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textAlignment="viewEnd" style="@style/AsStyledTextAppearanceDescription"/>
+    </LinearLayout>
+</LinearLayout>

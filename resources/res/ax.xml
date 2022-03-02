@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/fm_verify_cvc_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="64dp" android:minWidth="240dp">
+        <ProgressBar android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true"/>
+        <TextView android:textColor="?android:attr/textColorSecondary" android:id="@+id/fm_verify_cvc_progress_bar_text" android:paddingLeft="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fm_just_a_sec_message" style="@style/TextAppearance.FamilyManagement.Subhead"/>
+    </LinearLayout>
+</FrameLayout>

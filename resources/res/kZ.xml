@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/auth_setup_wizard_navbar_style">
+    <view android:id="@+id/auth_setup_wizard_navbar_back" android:contentDescription="@string/common_back" android:drawableStart="@drawable/auth_setup_wizard_navbar_ic_back" class="com.android.setupwizard.navigationbar.SetupWizardNavBar$NavButton" style="@style/auth_setup_wizard_navbar_button_style"/>
+    <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <view android:gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/auth_setup_wizard_navbar_next" android:text="@string/common_next" android:drawableEnd="@drawable/auth_setup_wizard_navbar_ic_next" class="com.android.setupwizard.navigationbar.SetupWizardNavBar$NavButton" style="@style/auth_setup_wizard_navbar_button_style"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/illustration_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/illustration" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/smartdevice_illustration_bottom_margin" android:adjustViewBounds="true" android:maxWidth="@dimen/smartdevice_illustration_size" android:maxHeight="@dimen/smartdevice_illustration_size" android:contentDescription="@null" style="@style/SudContentIllustration"/>
+</FrameLayout>

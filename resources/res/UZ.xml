@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/fm_item_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.widget.Space android:id="@+id/fm_top_item_space" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp">
+        <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center_vertical" android:id="@+id/fm_item_avatar" android:layout_width="@dimen/fm_profile_photo_size_small" android:layout_height="@dimen/fm_profile_photo_size_small" android:layout_marginLeft="@dimen/fm_item_margin_start" android:layout_marginRight="@dimen/fm_item_margin_end" android:layout_marginStart="@dimen/fm_item_margin_start" android:layout_marginEnd="@dimen/fm_item_margin_end"/>
+        <include android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/fm_item_margin_end" android:layout_marginEnd="@dimen/fm_item_margin_end" layout="@layout/fm_item_2_line_template"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.common.widget.phone.SnackbarLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/snackbar" android:background="@drawable/credential_snackbar_background" android:padding="0dp">
+    <com.google.android.gms.auth.api.credentials.yolo.ui.AccountChipView android:layout_gravity="left" android:id="@+id/account_chip_view" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</com.google.android.gms.common.widget.phone.SnackbarLayout>

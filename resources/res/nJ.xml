@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="20dp" android:paddingEnd="20dp">
+    <EditText android:id="@+id/edittext" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/new_device_name_hint" android:singleLine="true" android:inputType="textCapSentences" android:autofillHints="none"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_account_chip_account_subtitle_day_night_color">@color/common_account_chip_account_subtitle_color_dark</color>
+    <color name="common_account_chip_account_title_day_night_color">@color/common_account_chip_account_title_color_dark</color>
+    <color name="common_account_consent_day_night_color">@color/common_account_consent_color_dark</color>
+    <color name="common_account_divider_day_night_color">@color/common_account_divider_color_dark</color>
+    <color name="common_account_link_day_night_color">@color/common_account_link_color_dark</color>
+    <color name="common_account_main_title_1p_day_night_color">@color/common_account_main_title_color_dark</color>
+    <color name="common_account_main_title_day_night_color">@color/common_account_main_title_color_dark</color>
+    <color name="common_account_vector_icon_day_night_color">@color/google_grey200</color>
+</resources>

@@ -1,0 +1,177 @@
+96:11357 AOSP setup wizard
+96:11357 Android Setup Wizard Library
+96:11357 Setup Compat library
+96:11357 Setup Design library
+11464:11361 Abseil
+24139:10695 Android Annotations Support Library
+24139:10695 Android Compat Support Library
+24139:10695 Android Compatibility Library v14
+24139:10695 Android Compatibility Library v4
+24139:10695 Android Compatibility Library v7
+24139:10695 Android Core UI Support Library
+24139:10695 Android Custom Tabs Support Library
+24139:10695 Android Design Support Library
+24139:10695 Android Dynamic Animation Support Library
+24139:10695 Android EXIF Interface Support Library
+24139:10695 Android Fragments Support Library
+24139:10695 Android Graphics Support Library
+24139:10695 Android Percent Support Library
+24139:10695 AndroidX EXIF interface library
+24139:10695 AndroidX activity library
+24139:10695 AndroidX animated vectordrawable library
+24139:10695 AndroidX annotation library
+24139:10695 AndroidX asynchronous layout inflater library
+24139:10695 AndroidX browser library
+24139:10695 AndroidX card view library
+24139:10695 AndroidX concurrent futures library
+24139:10695 AndroidX coordinator layout library
+24139:10695 AndroidX cursor adapter library
+24139:10695 AndroidX document file library
+24139:10695 AndroidX drawer layout library
+24139:10695 AndroidX dynamic animation library
+24139:10695 AndroidX legacy coreui library
+24139:10695 AndroidX legacy v13 libraries
+24139:10695 AndroidX legacy v13 library
+24139:10695 AndroidX media router library
+24139:10695 AndroidX palette library
+24139:10695 AndroidX percent layout library
+24139:10695 AndroidX preference library
+24139:10695 AndroidX print library
+24139:10695 AndroidX sliding pane layout library
+24139:10695 AndroidX swipe refresh layout library
+24139:10695 AndroidX vectordrawable base library
+24139:10695 AndroidX view pager library
+24139:10695 packages
+24139:10695 savedstate
+24139:10695 viewpager2
+35069:10694 Android Architecture Components
+35069:10694 Android Architecture Components Core Library
+35069:10694 Android Architecture Components Lifecycle Library
+35069:10694 Android Architecture Components Lifecycle Runtime Library
+35069:10694 Android Constraint Layout Support Library
+46457:10693 Android Collections Support Library
+46457:10693 Android Coordinator Layout Support Library
+46457:10693 Android Custom View Support Library
+46457:10693 Android Drawer Layout Support Library
+46457:10693 Android Interpolator Support Library
+46457:10693 Android Loader Support Library
+46457:10693 Android Local Broadcast Manager Support Library
+46457:10693 Android Slice Builders Support Library
+46457:10693 Android Slice Core Support Library
+46457:10693 Android Slice Support Library
+46457:10693 Android Slice View Support Library
+46457:10693 Android Swipe Refresh Layout Support Library
+46457:10693 Android View Pager Support Library
+46457:10693 Android Wearable Support Library
+46457:10693 AndroidX interpolator library
+46457:10693 AndroidX local broadcast manager library
+46457:10693 AndroidX slice builder library
+46457:10693 AndroidX wearable support library
+46457:10693 remotecallback
+57530:11358 Android Common
+57530:11358 Apache Commons Codec
+57530:11358 Conscrypt
+57530:11358 Dagger
+57530:11358 FasterXML Jackson
+57530:11358 FasterXML Jackson2
+57530:11358 Google Auto
+57530:11358 Guava JDK5
+57530:11358 J2ObjC
+57530:11358 JSR 250
+57530:11358 Material Components for Android
+57530:11358 OkHttp
+57530:11358 Okio
+57530:11358 OpenCensus
+57530:11358 Tink
+57530:11358 Volley
+57530:11358 android_build
+57530:11358 conscrypt
+57530:11358 fastutil
+57530:11358 flexbox
+57530:11358 gRPC Java
+57530:11358 gemmlowp
+57530:11358 open_location_code
+57530:11358 safeparcel
+57530:11358 stubs
+57530:11358 v2964546_google
+57530:11358 v5417198_google
+57530:11358 v5800771_google
+57530:11358 wearable
+69037:10691 Android Core Utils Support Library
+69037:10691 Android Media Compatibility Support Library
+69037:10691 Android Transition Support Library
+69037:10691 AndroidX transition library
+79816:10695 Android Versioned Parcelable Support Library
+79816:10695 AndroidX versioned parcelable library
+90525:11341 ArWebView
+101908:11357 Error Prone
+101908:11357 ZXing
+101908:11357 perfmark
+101908:11357 tagsoup
+113278:11336 Espresso
+124627:11357 Firebase
+136000:11342 FlatBuffers
+147443:11356 Google API Java Client
+147443:11356 Google HTTP Java Client
+147443:11356 google_api_java_client
+147443:11356 google_http_java_client
+158814:11362 Guava JDK7
+170188:11365 JSR 330
+181579:11307 JsInterop Annotations
+192897:11356 Lottie
+204263:16780 Rhino
+221056:11360 TCMalloc
+232436:12521 archive_patcher
+244972:13733 contexthub
+258726:10141 customtabsclient
+268886:10695 dialer
+268886:10695 protos
+279591:16726 eigen
+296326:11354 gson
+307699:10173 libphonenumber
+317885:11416 mobstore
+329315:12834 mp4parser
+342160:11359 netrec
+353534:11376 openvcdiff
+364923:9217 p2putils
+374156:16013 Android SDK
+390188:1096 Animal Sniffer
+391318:1846 Checker Framework Annotations
+393175:898 Nanopb
+394087:4057 Portaudio
+398152:731 UTF
+398891:1125 fft
+400025:611 g722
+400645:429 g771
+401086:4277 libjpeg
+405372:2500 zlib
+407896:1473 Auth client library
+409381:1602 JSR 305
+410996:1513 Kiss FFT
+412553:1732 Nano Protocol Buffers
+412553:1732 Protocol Buffers
+414306:3184 Opus audio codec
+417498:1558 RE2
+419065:1500 SCTP
+420576:1511 WebRTC
+422099:1535 XMPCore
+423644:2655 Zippy
+426311:1484 leveldb
+427807:1614 libSRTP
+429432:1506 libyuv
+430951:1662 neon2sse
+432625:1581 rnnoise
+434217:550 Base64
+434777:272 fft4g
+435061:262 sigslot
+435342:915 spl_sqrt_floor
+436271:12517 BoringSSL
+448799:684810 Cronet
+1133621:53901 Eigen 3
+1187532:21001 ICU4C
+1208543:19442 ICU4J
+1228016:9043 cast_mirroring_native_libs
+1237073:5079 googleurl
+1242165:4528 libevent
+1246711:5545 libjpeg-turbo
+1252266:1919 pffft

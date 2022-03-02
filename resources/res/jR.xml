@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:paddingLeft="0dp" android:paddingRight="?android:attr/scrollbarSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="?android:attr/listPreferredItemHeight">
+    <Button android:id="@+id/off_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/car_driving_mode_common_turn_on" style="@style/DrivingModeButtonPreference.OffButton"/>
+    <Button android:id="@+id/on_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/car_driving_mode_button_preference_on" style="@style/DrivingModeButtonPreference.OnButton"/>
+    <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+</LinearLayout>

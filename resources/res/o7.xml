@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false">
+    <include android:id="@+id/nestedCard1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nested_card_spacing" android:layout_weight="1" android:layout_marginStart="@dimen/card_entry_padding_start" layout="@layout/nested_photo"/>
+    <include android:id="@+id/nestedCard2" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nested_card_spacing" android:layout_weight="1" android:layout_marginStart="@dimen/nested_card_spacing" layout="@layout/nested_photo"/>
+    <include android:id="@+id/nestedCard3" android:visibility="invisible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nested_card_spacing" android:layout_weight="1" android:layout_marginStart="@dimen/nested_card_spacing" android:layout_marginEnd="@dimen/card_entry_padding_start" layout="@layout/nested_photo"/>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Auth.Theme.Setup.D2D.Source">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V22.Theme.AppCompat">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+    <style name="Base.V22.Theme.AppCompat.Light">
+        <item name="actionModeShareDrawable">?android:attr/actionModeShareDrawable</item>
+        <item name="editTextBackground">?android:attr/editTextBackground</item>
+    </style>
+    <style name="SudAlertDialogTheme">
+        <item name="android:colorBackground">@color/sud_glif_v3_dialog_background_color_dark</item>
+    </style>
+    <style name="SudAlertDialogTheme.Light">
+    </style>
+    <style name="SuwAlertDialogTheme">
+    </style>
+    <style name="SuwAlertDialogTheme.Light">
+    </style>
+</resources>

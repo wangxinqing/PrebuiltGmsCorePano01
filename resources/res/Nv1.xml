@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="7"/>
+    <ImageView android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_adm_google_account"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="@color/dark_gray" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_settings_no_google_account"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="@color/link_blue" android:id="@+id/add_account" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_add_account_label" style="@style/common.Widget.SelectableItem"/>
+    <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="10"/>
+</LinearLayout>

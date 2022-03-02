@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_entry_min_height" android:paddingStart="@dimen/gm_card_padding" android:paddingEnd="@dimen/gm_card_padding">
+    <ImageView android:id="@+id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_call_vd_theme_24" android:minWidth="@dimen/card_entry_icon_min_width" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/card_entry_text_offset" android:layout_alignParentStart="true"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@+id/icon">
+        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="?android:attr/textColorPrimary" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:id="@+id/call_icon" android:paddingLeft="@dimen/interactions_entry_call_icon_padding" android:paddingRight="@dimen/interactions_entry_call_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@+id/text"/>
+        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="?android:attr/textColorPrimary" android:id="@+id/phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@+id/call_icon"/>
+        <TextView android:textAppearance="?attr/textAppearanceCaption" android:textColor="?android:attr/textColorSecondary" android:id="@+id/subtext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_entry_subtext_offset_top" android:layout_below="@+id/text"/>
+    </RelativeLayout>
+</RelativeLayout>

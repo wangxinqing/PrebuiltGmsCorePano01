@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@color/google_gray" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="@color/text_error_hint" android:id="@+id/hint" android:padding="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/place_picker_no_search_results"/>
+        <Button android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="@color/text_white" android:id="@+id/action" android:background="@drawable/place_picker_blue_background" android:layout_width="0dp" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_below="@+id/hint" android:layout_alignLeft="@+id/hint" android:layout_alignRight="@+id/hint"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <RelativeLayout android:id="@+id/gh_contact_card_title_section" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+        <TextView android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gh_menu_feedback_and_support" style="@style/gh_materialCardTitleStyle.rtlSupport"/>
+        <com.google.android.material.button.MaterialButton android:id="@+id/gh_show_hours" android:padding="8dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/gh_show_hours" style="@style/gh_materialCardButtonStyle.rtlSupport"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/gh_contact_option_container" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include android:layout_width="match_parent" android:layout_height="@dimen/gh_material_section_divider_height" android:layout_marginLeft="@dimen/gh_item_horizontal_padding" android:layout_marginRight="@dimen/gh_item_horizontal_padding" layout="@layout/gh_section_divider"/>
+</merge>

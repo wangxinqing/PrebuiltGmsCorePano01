@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DevicesList.ToolbarOverlay">
+    </style>
+    <style name="DevicesListToolbar">
+        <item name="android:background">@color/material_grey_100</item>
+    </style>
+    <style name="common.Theme.Base.GoogleSettings">
+        <item name="android:colorBackground">@color/googlesettings_color_background</item>
+        <item name="android:statusBarColor">@color/googlesettings_status_bar</item>
+        <item name="android:navigationBarColor">@color/googlesettings_navbar_color</item>
+        <item name="?0x10104e0">@bool/googlesettings_light_status_and_nav_bar</item>
+        <item name="?0x101056c">@bool/googlesettings_light_status_and_nav_bar</item>
+        <item name="?0x101056d">@color/googlesettings_navbar_divider</item>
+        <item name="colorAccent">@color/googlesettings_color_accent</item>
+        <item name="colorPrimary">@color/googlesettings_color_primary</item>
+        <item name="colorPrimaryDark">@color/googlesettings_color_primary_dark</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+    </style>
+    <style name="common.Theme.GoogleSettings">
+        <item name="actionBarStyle">@style/common.Widget.Base.ActionBar.Style.GoogleSettings</item>
+        <item name="actionBarTheme">@style/common.Widget.Base.ActionBar.GoogleSettings</item>
+        <item name="switchBarStyle">@style/common.Widget.SwitchBar.GoogleSettings</item>
+    </style>
+    <style name="common.Theme.GoogleSettings.Dialog">
+    </style>
+    <style name="common.Widget.Base.ActionBar.GoogleSettings">
+        <item name="background">@color/material_grey_white_1000</item>
+    </style>
+    <style name="common.Widget.Base.ActionBar.Style.GoogleSettings">
+        <item name="background">@color/material_grey_white_1000</item>
+    </style>
+    <style name="common.Widget.Base.SwitchBar.GoogleSettings">
+        <item name="colorAccent">@color/googlesettings_color_accent</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+    </style>
+    <style name="play_protect_action_bar_style">
+    </style>
+    <style name="play_protect_settings">
+        <item name="?0x10104e0">false</item>
+        <item name="actionBarStyle">@style/play_protect_action_bar_style</item>
+    </style>
+</resources>

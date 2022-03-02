@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="@dimen/common_settings_item_left_right_padding" android:paddingTop="@dimen/common_padding_between_title_and_body" android:paddingRight="@dimen/common_settings_item_left_right_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:paddingLeft="@dimen/common_settings_margin_vertical" android:paddingRight="@dimen/common_settings_margin_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/usage_reporting_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/usage_reporting_dialog_message" style="@style/TextAppearance.Theme.Dialog"/>
+            <TextView android:textColor="#009688" android:id="@+id/learn_more_text" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_learn_more" style="@style/TextAppearance.Theme.Dialog"/>
+            <TextView android:id="@+id/usage_reporting_more_text" android:paddingTop="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/usage_reporting_dialog_more_message" style="@style/TextAppearance.Theme.Dialog"/>
+            <TextView android:id="@+id/usage_reporting_control_text" android:paddingTop="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/usage_reporting_control" style="@style/TextAppearance.Theme.Dialog"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

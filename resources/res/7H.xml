@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@android:id/list" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:choiceMode="none" style="@style/GrantScopesAccountChip"/>
+    <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <view android:id="@+id/scroll_view" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="0dp" android:fillViewport="false" android:layout_weight="2" class="com.google.android.gms.common.widget.phone.ScrollViewWithEvents">
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/auth_consent_container_padding" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:id="@+id/header_fragment_layout" android:paddingBottom="@dimen/auth_consent_padding" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/scopes_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/footnote" android:paddingTop="@dimen/auth_consent_padding" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/GrantCredentialsTextFooter"/>
+            </LinearLayout>
+        </view>
+        <include android:layout_marginBottom="12dp" layout="@layout/auth_consent_access_buttons"/>
+    </LinearLayout>
+</LinearLayout>

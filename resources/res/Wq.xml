@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/audience_auth_button_color_pressed"/>
+            <padding android:left="12dp" android:right="12dp"/>
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@color/audience_auth_button_color_focused"/>
+            <padding android:left="12dp" android:right="12dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/audience_auth_button_color"/>
+            <padding android:left="12dp" android:right="12dp"/>
+        </shape>
+    </item>
+</selector>

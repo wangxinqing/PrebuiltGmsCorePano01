@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/chromesync_custom_passphrase_dialog" android:paddingLeft="24dp" android:paddingTop="24dp" android:paddingRight="24dp" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="@color/chromesync_dialog_title" android:id="@+id/chromesync_custom_passphrase_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="@string/chromesync_custom_passphrase_title"/>
+    <EditText android:textSize="16sp" android:id="@+id/chromesync_enter_passphrase" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:hint="@string/chromesync_enter_passphrase_hint" android:singleLine="true" android:inputType="textPassword" android:layout_marginStart="-4dp"/>
+    <TextView android:textSize="12sp" android:textColor="@color/chromesync_error_hint_text" android:id="@+id/chromesync_custom_passphrase_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/chromesync_entered_wrong_passphrase"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColorLink="@color/chromesync_description_link" android:id="@+id/chromesync_custom_passphrase_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="48dp" android:layout_marginTop="8dp" style="?attr/buttonBarStyle">
+        <Button android:id="@+id/chromesync_custom_passphrase_cancel" android:background="?attr/selectableItemBackground" android:text="@android:string/cancel" style="@style/ChromeSync.Dialog.Button"/>
+        <Button android:enabled="false" android:id="@+id/chromesync_custom_passphrase_continue" android:background="?attr/selectableItemBackground" android:text="@string/common_continue" style="@style/ChromeSync.Dialog.Button">
+            <requestFocus/>
+        </Button>
+    </LinearLayout>
+</LinearLayout>

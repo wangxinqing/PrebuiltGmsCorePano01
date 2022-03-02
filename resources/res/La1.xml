@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/gf_account_and_system_info_viewer_item" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/gf_AccountAndSystemInfoViewerItem">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/gf_item_label" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:id="@+id/gf_item_value" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/ic_do_not_disturb_on" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:suwFooter="@layout/footer_skip_only" app:suwHeaderText="">
+    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SuwContentFrame">
+        <TextView android:id="@+id/body" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SuwDescription.Glif"/>
+        <com.android.setupwizardlib.view.FillContentLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/illustration" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="center" android:contentDescription="@string/dnd_illustration_description" android:importantForAccessibility="no" style="@style/SuwContentIllustration"/>
+        </com.android.setupwizardlib.view.FillContentLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/footerLayout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/footer_icon" android:paddingLeft="12dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_info_grey600_24" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:contentDescription="@string/dnd_notification_footer_icon_desc"/>
+            <TextView android:id="@+id/footer_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/footer_icon" style="@style/TextAppearance.Small"/>
+        </RelativeLayout>
+    </LinearLayout>
+</com.android.setupwizardlib.GlifLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/auth_ic_googleg" android:layout_width="match_parent" android:layout_height="match_parent" app:sucHeaderText="@string/auth_pre_wipe_title" app:sucUsePartnerResource="false">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/auth_screen_margin_sides" android:layout_marginRight="@dimen/auth_screen_margin_sides" android:layout_marginBottom="@dimen/auth_screen_margin_sides">
+        <TextView android:gravity="center" android:id="@+id/pre_frp_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auth_pre_wipe_credential_desc_text" android:layout_below="@+id/top_divider" style="@style/SudDescription"/>
+        <Button android:id="@+id/continue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/common_continue" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:onClick="onContinue" style="@style/SudGlifButton.Primary"/>
+        <CheckBox android:id="@+id/check_cred" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/auth_pre_wipe_credential_check_text" android:layout_above="@+id/continue_button" android:onClick="onCheckCredClicked" style="@style/SudCheckBox"/>
+    </RelativeLayout>
+</com.google.android.setupdesign.GlifLayout>

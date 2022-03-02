@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider_color">#1f000000</color>
+    <color name="googlesettings_color_accent">@color/material2_google_blue_600</color>
+    <color name="googlesettings_color_background">@color/material_grey_white_1000</color>
+    <color name="googlesettings_color_primary">@color/common_holo_light_primary</color>
+    <color name="googlesettings_color_primary_dark">@color/common_holo_light_primary_dark</color>
+    <color name="googlesettings_navbar_color">@color/material_grey_white_1000</color>
+    <color name="googlesettings_navbar_divider">@color/divider_color</color>
+    <color name="googlesettings_status_bar">@color/material_grey_white_1000</color>
+</resources>

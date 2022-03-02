@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/card" android:layout_height="wrap_content" android:divider="@drawable/sharing_divider" android:showDividers="middle" android:transitionName="card" style="@style/Sharing.Consents.Content">
+        <FrameLayout android:id="@+id/toolbar_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar android:theme="@style/Sharing.Consents.ToolbarOverlay" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_marginTop="4dp" app:popupTheme="@style/Sharing.Consents.PopupOverlay"/>
+            <TextView android:id="@+id/toolbar_title" android:text="@string/sharing_setup_title" style="@style/Sharing.CardActivity.ToolbarTitle"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/account_info" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/account_icon" android:background="@android:color/transparent" android:contentDescription="@string/sharing_consents_account_icon" style="@style/Sharing.Consents.Account.Icon"/>
+            <LinearLayout android:orientation="vertical" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@+id/account_full_name" style="@style/Sharing.Consents.Account.Text"/>
+                <TextView android:id="@+id/account_email" style="@style/Sharing.Consents.Account.Text"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:id="@+id/consents_introduction" android:paddingBottom="12dp" android:text="@string/sharing_consents_introduction" style="@style/Sharing.Consents.Intro"/>
+                <ProgressBar android:layout_gravity="center" android:id="@+id/consents_text_loading_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/device_contacts_title" android:visibility="gone" style="@style/Sharing.Consents.Title"/>
+                <TextView android:id="@+id/device_contacts_description" android:paddingBottom="6dp" android:visibility="gone" style="@style/Sharing.Consents.Description"/>
+                <TextView android:id="@+id/device_contacts_footer" android:visibility="gone" style="@style/Sharing.Consents.Description"/>
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="start" android:id="@+id/skip_button" android:text="@string/sharing_consents_button_skip" style="@style/Sharing.Consents.Button.Borderless"/>
+            <Button android:layout_gravity="start" android:id="@+id/negative_button" android:visibility="gone" style="@style/Sharing.Consents.Button.Borderless"/>
+            <Button android:layout_gravity="end" android:id="@+id/positive_button" android:visibility="gone" style="@style/Sharing.Consents.Button"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

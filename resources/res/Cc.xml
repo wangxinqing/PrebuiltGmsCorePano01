@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@android:id/background">
+        <shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="false" android:thickness="@dimen/sharing_progress_bar_thickness">
+            <solid android:color="@color/sharing_color_waiting"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <shape android:shape="ring" android:innerRadiusRatio="2.5" android:useLevel="true" android:thickness="@dimen/sharing_progress_bar_thickness">
+            <solid android:color="@color/sharing_color_accent"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AsHeaderTabLayoutAppearance">
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V26.Theme.AppCompat">
+        <item name="colorError">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light">
+        <item name="colorError">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar">
+    </style>
+    <style name="DevicesList.ToolbarOverlay">
+    </style>
+    <style name="EditTextPreference">
+        <item name="android:layout">@layout/preference_material_settings</item>
+    </style>
+    <style name="PreferenceFragmentStyle">
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="PreferenceTheme">
+        <item name="android:scrollbars">none</item>
+        <item name="dialogPreferenceStyle">@style/SettingsDialogPreference</item>
+        <item name="dropdownPreferenceStyle">@style/SettingsDropdownPreference</item>
+        <item name="editTextPreferenceStyle">@style/EditTextPreference</item>
+        <item name="preferenceCategoryStyle">@style/SettingsPreferenceCategory</item>
+        <item name="preferenceFragmentCompatStyle">@style/PreferenceFragmentStyle</item>
+        <item name="preferenceFragmentStyle">@style/PreferenceFragmentStyle</item>
+        <item name="preferenceStyle">@style/SettingsPreference</item>
+        <item name="switchPreferenceCompatStyle">@style/SettingsSwitchPreferenceCompat</item>
+        <item name="switchPreferenceStyle">@style/SettingsSwitchPreference</item>
+    </style>
+    <style name="SettingsDialogPreference">
+        <item name="android:layout">@layout/preference_material_settings</item>
+    </style>
+    <style name="SettingsDropdownPreference">
+        <item name="android:layout">@layout/preference_dropdown_material_settings</item>
+    </style>
+    <style name="SettingsPreference">
+        <item name="android:layout">@layout/preference_material_settings</item>
+    </style>
+    <style name="SettingsPreferenceCategory">
+        <item name="android:layout">@layout/preference_category_material_settings</item>
+    </style>
+    <style name="SettingsSwitchPreference">
+        <item name="android:layout">@layout/preference_material_settings</item>
+    </style>
+    <style name="SettingsSwitchPreferenceCompat">
+        <item name="android:layout">@layout/preference_material_settings</item>
+    </style>
+    <style name="SudBaseThemeGlif">
+        <item name="android:colorBackground">@color/sud_glif_background_color_dark</item>
+        <item name="android:listPreferredItemHeight">@dimen/sud_items_preferred_height</item>
+        <item name="android:textColorLink">@color/sud_color_accent_glif_dark</item>
+        <item name="android:windowAnimationStyle">@style/Animation.SudWindowAnimation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateHidden</item>
+        <item name="android:textAppearanceListItemSmall">?attr/textAppearanceListItemSmall</item>
+        <item name="android:listPreferredItemPaddingStart">?attr/sudMarginSides</item>
+        <item name="android:listPreferredItemPaddingEnd">?attr/sudMarginSides</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:indeterminateTint">?attr/colorControlActivated</item>
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="?0x1010543">@color/sud_color_error_text_dark</item>
+        <item name="colorAccent">@color/sud_color_accent_glif_dark</item>
+        <item name="colorPrimary">?attr/colorAccent</item>
+        <item name="listPreferredItemPaddingLeft">?attr/sudMarginSides</item>
+        <item name="listPreferredItemPaddingRight">?attr/sudMarginSides</item>
+        <item name="sucFooterBarButtonAllCaps">?attr/sudButtonAllCaps</item>
+        <item name="sucFooterBarButtonColorControlHighlightRipple">?attr/colorAccent</item>
+        <item name="sucFooterBarButtonCornerRadius">?attr/sudButtonCornerRadius</item>
+        <item name="sucFooterBarButtonFontFamily">?attr/sudButtonFontFamily</item>
+        <item name="sucFooterBarButtonHighlightAlpha">?attr/sudButtonHighlightAlpha</item>
+        <item name="sucFooterBarPaddingVertical">@dimen/sud_glif_footer_padding_vertical</item>
+        <item name="sucStatusBarBackground">?android:attr/colorBackground</item>
+        <item name="sucSystemNavBarBackgroundColor">@android:color/black</item>
+        <item name="sudButtonAllCaps">true</item>
+        <item name="sudButtonCornerRadius">@dimen/sud_glif_button_corner_radius</item>
+        <item name="sudButtonFontFamily">sans-serif-medium</item>
+        <item name="sudButtonHighlightAlpha">0.24</item>
+        <item name="sudColorPrimary">?attr/colorPrimary</item>
+        <item name="sudDividerInsetEnd">0dp</item>
+        <item name="sudDividerInsetStart">@dimen/sud_items_glif_icon_divider_inset</item>
+        <item name="sudDividerInsetStartNoIcon">@dimen/sud_items_glif_text_divider_inset</item>
+        <item name="sudFillContentLayoutStyle">@style/SudFillContentLayout</item>
+        <item name="sudGlifHeaderGravity">800003</item>
+        <item name="sudGlifIconStyle">@style/SudGlifIcon</item>
+        <item name="sudItemDescriptionStyle">@style/SudItemContainer.Description.Glif</item>
+        <item name="sudItemDescriptionTitleStyle">@style/SudItemTitle.GlifDescription</item>
+        <item name="sudListItemIconColor">@color/sud_list_item_icon_color_dark</item>
+        <item name="sudMarginSides">@dimen/sud_glif_margin_sides</item>
+        <item name="sudScrollIndicators">2</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.SudGlifItemTitle</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.SudGlifItemSummary</item>
+    </style>
+    <style name="SudBaseThemeGlif.Light">
+        <item name="android:colorBackground">@color/sud_glif_background_color_light</item>
+        <item name="android:listPreferredItemHeight">@dimen/sud_items_preferred_height</item>
+        <item name="android:textColorLink">@color/sud_color_accent_glif_light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.SudWindowAnimation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateHidden</item>
+        <item name="android:textAppearanceListItemSmall">?attr/textAppearanceListItemSmall</item>
+        <item name="android:listPreferredItemPaddingStart">?attr/sudMarginSides</item>
+        <item name="android:listPreferredItemPaddingEnd">?attr/sudMarginSides</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:indeterminateTint">?attr/colorControlActivated</item>
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="?0x1010543">@color/sud_color_error_text_light</item>
+        <item name="colorAccent">@color/sud_color_accent_glif_light</item>
+        <item name="colorPrimary">?attr/colorAccent</item>
+        <item name="listPreferredItemPaddingLeft">?attr/sudMarginSides</item>
+        <item name="listPreferredItemPaddingRight">?attr/sudMarginSides</item>
+        <item name="sucFooterBarButtonAllCaps">?attr/sudButtonAllCaps</item>
+        <item name="sucFooterBarButtonColorControlHighlightRipple">?attr/colorAccent</item>
+        <item name="sucFooterBarButtonCornerRadius">?attr/sudButtonCornerRadius</item>
+        <item name="sucFooterBarButtonFontFamily">?attr/sudButtonFontFamily</item>
+        <item name="sucFooterBarButtonHighlightAlpha">?attr/sudButtonHighlightAlpha</item>
+        <item name="sucFooterBarPaddingVertical">@dimen/sud_glif_footer_padding_vertical</item>
+        <item name="sucStatusBarBackground">?android:attr/colorBackground</item>
+        <item name="sucSystemNavBarBackgroundColor">@android:color/black</item>
+        <item name="sudButtonAllCaps">true</item>
+        <item name="sudButtonCornerRadius">@dimen/sud_glif_button_corner_radius</item>
+        <item name="sudButtonFontFamily">sans-serif-medium</item>
+        <item name="sudButtonHighlightAlpha">0.12</item>
+        <item name="sudColorPrimary">?attr/colorPrimary</item>
+        <item name="sudDividerInsetEnd">0dp</item>
+        <item name="sudDividerInsetStart">@dimen/sud_items_glif_icon_divider_inset</item>
+        <item name="sudDividerInsetStartNoIcon">@dimen/sud_items_glif_text_divider_inset</item>
+        <item name="sudFillContentLayoutStyle">@style/SudFillContentLayout</item>
+        <item name="sudGlifHeaderGravity">800003</item>
+        <item name="sudGlifIconStyle">@style/SudGlifIcon</item>
+        <item name="sudItemDescriptionStyle">@style/SudItemContainer.Description.Glif</item>
+        <item name="sudItemDescriptionTitleStyle">@style/SudItemTitle.GlifDescription</item>
+        <item name="sudListItemIconColor">@color/sud_list_item_icon_color_light</item>
+        <item name="sudMarginSides">@dimen/sud_glif_margin_sides</item>
+        <item name="sudScrollIndicators">2</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.SudGlifItemTitle</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.SudGlifItemSummary</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="common.Theme.Base.ActionBar">
+        <item name="android:textColorPrimary">?attr/colorAccent</item>
+    </style>
+    <style name="common.Theme.Base.GoogleSettings">
+        <item name="android:listPreferredItemHeight">72dp</item>
+        <item name="android:statusBarColor">@color/material_grey_300</item>
+        <item name="android:colorEdgeEffect">@android:color/black</item>
+        <item name="?0x10104e0">true</item>
+        <item name="actionBarTheme">@style/common.Theme.Base.ActionBar</item>
+        <item name="colorAccent">@color/material_google_blue_500</item>
+        <item name="colorPrimary">@color/material_grey_100</item>
+        <item name="colorPrimaryDark">@color/material_grey_300</item>
+        <item name="dialogCornerRadius">@dimen/common_dialog_corner_radius</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="preferenceTheme">@style/PreferenceTheme</item>
+    </style>
+    <style name="common.Widget.Base.SwitchBar.GoogleSettings">
+        <item name="colorAccent">@color/material_google_blue_400</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+        <item name="colorPrimary">@color/material_grey_300</item>
+    </style>
+</resources>

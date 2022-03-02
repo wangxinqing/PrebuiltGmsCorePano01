@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <PreferenceScreen android:title="@LEMON_transformed_from_string/common_maps_settings_title" android:key="key1">
+        <intent android:action="com.google.android.apps.maps.LOCATION_SETTINGS"/>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@LEMON_transformed_from_string/common_asm_manage_google_account_title" android:key="key7">
+        <intent android:action="com.google.android.gms.accountsettings.MY_ACCOUNT"/>
+    </PreferenceScreen>
+</PreferenceScreen>

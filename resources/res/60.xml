@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/gh_operation_hours_transparent_layout" android:background="@color/google_transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="?attr/gh_roundedCornerBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16dp" android:maxWidth="480dp" android:minWidth="312dp">
+        <TextView android:textSize="16sp" android:textColor="?attr/gh_primaryTextColor" android:layout_gravity="center_horizontal" android:paddingLeft="8dp" android:paddingTop="24dp" android:paddingRight="8dp" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gh_hours_of_operation" style="@style/gh_operationHoursTitleFontStyle"/>
+        <ScrollView android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+            <LinearLayout android:orientation="vertical" android:id="@+id/gh_operation_hours_items" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </ScrollView>
+        <com.google.android.material.button.MaterialButton android:id="@+id/gh_operation_hours_ok_button" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:text="@string/common_ok" android:insetLeft="12dp" android:insetRight="12dp" style="@style/gh_operationHoursOkButtonStyle"/>
+    </LinearLayout>
+</FrameLayout>

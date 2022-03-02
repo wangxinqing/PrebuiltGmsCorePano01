@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="@android:anim/decelerate_interpolator" android:duration="@integer/sharing_window_transition_duration" android:transitionOrdering="together">
+    <targets>
+        <target android:excludeId="@android:id/statusBarBackground"/>
+        <target android:excludeId="@android:id/navigationBarBackground"/>
+    </targets>
+    <transition app:mode="oneLine" class="com.google.android.gms.nearby.sharing.animation.FadeTransition"/>
+    <transition app:mode="oneLine" class="com.google.android.gms.nearby.sharing.animation.DividerFadeTransition">
+        <targets>
+            <target android:targetId="@+id/card"/>
+        </targets>
+    </transition>
+    <changeBounds>
+        <targets>
+            <target android:targetId="@+id/card"/>
+        </targets>
+    </changeBounds>
+</transitionSet>

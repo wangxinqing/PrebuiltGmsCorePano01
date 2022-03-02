@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:visible="true" android:drawable="@drawable/white_icons_foreground_inset" android:insetLeft="7.5dp" android:insetRight="9.5dp" android:insetTop="7dp" android:insetBottom="7dp"/>

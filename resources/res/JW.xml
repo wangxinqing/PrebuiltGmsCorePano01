@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/fm_cp_contact_row_body" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="?android:attr/selectableItemBackground" android:baselineAligned="false">
+    <RelativeLayout android:layout_width="@dimen/fm_profile_photo_size_small" android:layout_height="@dimen/fm_profile_photo_size_small" android:layout_margin="10dp" android:layout_marginRight="16dp" android:layout_marginEnd="16dp">
+        <ImageView android:id="@+id/fm_cp_avatar_mask" android:background="@drawable/fm_cp_circle_mask" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" android:elevation="10dp"/>
+        <android.support.v7.widget.AppCompatImageView android:id="@+id/fm_cp_avatar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null"/>
+        <android.support.v7.widget.AppCompatImageView android:id="@+id/fm_cp_default_avatar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@null" app:srcCompat="@drawable/product_logo_avatar_anonymous_color_48"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/fm_cp_selected_avatar" android:background="@drawable/blue_circle_background" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <android.support.v7.widget.AppCompatImageView android:id="@+id/fm_cp_selected_avatar_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="@color/quantum_googblue300" android:layout_centerInParent="true" android:contentDescription="@null" app:srcCompat="@drawable/quantum_ic_check_vd_theme_24"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_weight="1">
+        <TextView android:textColor="?android:attr/textColorPrimary" android:ellipsize="end" android:id="@+id/fm_cp_contact_row_line_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/fm_cp_contact_row_line_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@+id/fm_cp_method_expand_button" android:visibility="invisible" android:layout_width="@dimen/fm_cp_expand_button_size" android:layout_height="@dimen/fm_cp_expand_button_size" android:layout_marginRight="16dp" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="16dp" app:srcCompat="@drawable/quantum_ic_expand_more_vd_theme_24"/>
+</LinearLayout>

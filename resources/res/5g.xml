@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.common.widget.phone.SnackbarLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/snackbar" android:background="@drawable/credential_snackbar_background" android:padding="0dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CredentialsTvShortLayout">
+        <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:src="@drawable/googleg_light_color_64"/>
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textAppearance="@style/CredentialsTvHalfSizeLayoutBreadcrumbText" android:background="@color/credentials_tv_snackbar_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/credentials_product_name_no_google" android:lineSpacingMultiplier="1.221"/>
+            <TextView android:textAppearance="@style/CredentialsTvHalfSizeLayoutTitleText" android:id="@+id/credentials_auto_signin_tv_title" android:background="@color/credentials_tv_snackbar_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.gms.common.widget.phone.SnackbarLayout>

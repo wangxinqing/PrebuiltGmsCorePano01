@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/frame_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/plus_window_background" android:padding="@dimen/plus_window_padding" android:layout_width="@dimen/plus_one_confirm_width" android:layout_height="@dimen/plus_one_confirm_height">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/plus_one_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/plus_title_layout"/>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

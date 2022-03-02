@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/fm_create_side_margin" android:paddingTop="@dimen/fm_create_top_margin" android:paddingRight="@dimen/fm_create_side_margin" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.android.volley.toolbox.NetworkImageView android:layout_gravity="center_horizontal" android:id="@+id/fm_success_header_image" android:layout_width="@dimen/fm_product_intro_image_size" android:layout_height="@dimen/fm_product_intro_image_size"/>
+                <TextView android:gravity="center_horizontal" android:id="@+id/fm_success_title_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" style="@style/TextAppearance.AppCompat.Title"/>
+                <TextView android:textColor="?android:attr/textColorSecondary" android:id="@+id/fm_success_body_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" style="@style/TextAppearance.FamilyManagement.Subhead"/>
+            </LinearLayout>
+            <View android:id="@+id/fm_success_members_list_divider_start" android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2dp"/>
+            <android.support.v7.widget.RecyclerView android:id="@+id/fm_success_members_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@+id/fm_success_members_list_divider_end" android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="2dp"/>
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:background="?attr/colorPrimary" android:layout_width="match_parent" android:layout_height="@dimen/fm_nav_bar_height">
+        <Button android:layout_gravity="end" android:id="@+id/fm_success_continue_button" android:paddingLeft="@dimen/fm_create_side_margin" android:paddingRight="@dimen/fm_create_side_margin" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/Widget.FamilyManagement.NavButton.ColorBackground"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="@dimen/custom_tooltip_height"/>
+            <solid android:color="@color/tooltip_color"/>
+            <corners android:radius="@dimen/custom_tooltip_corner_radius"/>
+        </shape>
+    </item>
+</layer-list>

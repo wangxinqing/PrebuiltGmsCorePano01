@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AlertThemeSelector">
+    </style>
+    <style name="CredentialsTvActionItem">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/credentials_tv_white_text_alpha_100</item>
+        <item name="android:background">@drawable/credential_tv_action_item</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+    <style name="CredentialsTvHalfSizeLayout">
+        <item name="android:background">#ff26427e</item>
+        <item name="android:paddingLeft">56dp</item>
+        <item name="android:paddingTop">44dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingBottom">27dp</item>
+        <item name="android:minHeight">278dp</item>
+    </style>
+    <style name="CredentialsTvHalfSizeLayoutBodyText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/credentials_tv_white_text_alpha_70</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="CredentialsTvHalfSizeLayoutBreadcrumbText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/credentials_tv_white_text_alpha_100</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="CredentialsTvHalfSizeLayoutTitleText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/credentials_tv_white_text_alpha_100</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="CredentialsTvShortLayout">
+        <item name="android:background">#ff26427e</item>
+        <item name="android:paddingLeft">56dp</item>
+        <item name="android:paddingTop">28dp</item>
+        <item name="android:paddingRight">56dp</item>
+        <item name="android:paddingBottom">27dp</item>
+    </style>
+</resources>

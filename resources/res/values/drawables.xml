@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="ic_zippy_day">@drawable/zippy</drawable>
+    <drawable name="ic_zippy_daynight">@drawable/ic_zippy_day</drawable>
+    <drawable name="ic_zippy_night">@drawable/zippy_white</drawable>
+</resources>

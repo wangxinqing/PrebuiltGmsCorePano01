@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:textSize="@dimen/common_account_main_title_text_size" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/main_title" android:background="@drawable/bg_play_games_banner_choose_account" android:paddingLeft="@dimen/common_account_picker_header_padding" android:paddingTop="16dp" android:paddingRight="@dimen/common_account_picker_header_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_choose_account_label" android:singleLine="true" android:textAlignment="center"/>
+</merge>

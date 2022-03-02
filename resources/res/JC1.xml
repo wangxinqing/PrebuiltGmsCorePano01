@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/user_action_label" android:text="USER ACTION" style="@style/ItemDetailSectionHeader"/>
+    <TextView android:id="@+id/user_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="true" style="@style/ItemDetailSectionContent"/>
+    <View style="@style/SpaceDivider"/>
+</LinearLayout>

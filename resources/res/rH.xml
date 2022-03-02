@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/compact_header" android:background="?android:attr/colorBackground" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_collapseMode="1" layout="@layout/as_toolbar_custom_view"/>
+    <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/as_clp_action_bar_text_area_side_margin" android:layout_marginRight="@dimen/as_clp_action_bar_text_area_side_margin" layout="@layout/as_action_bar_area_text"/>
+</FrameLayout>

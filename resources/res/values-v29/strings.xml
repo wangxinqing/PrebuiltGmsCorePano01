@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kids_mdm_desc">By allowing supervision, you give your parents the ability to manage and monitor your Google Account and supervisable devices.</string>
+    <string name="current_locale_sanity_check" />
+</resources>

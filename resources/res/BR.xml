@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/quantum_gm_ic_feedback_vd_theme_24" android:id="@+id/action_feedback" android:title="@string/common_list_apps_menu_help_and_feedback" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/quantum_gm_ic_help_outline_vd_theme_24" android:id="@+id/action_help" android:title="@string/common_list_apps_menu_help" app:showAsAction="ifRoom"/>
+</menu>

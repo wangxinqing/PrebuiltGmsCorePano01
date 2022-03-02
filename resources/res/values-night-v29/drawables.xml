@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="common_switch_bar_background_color_activated">@color/material_google_blue_300</drawable>
+    <drawable name="common_switch_bar_background_color_normal">@color/material_grey_600</drawable>
+    <drawable name="ic_zippy_daynight">@drawable/ic_zippy_night</drawable>
+</resources>

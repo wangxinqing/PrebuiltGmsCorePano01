@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.google.android.gms.drivingmode.GearPreference android:title="@string/car_driving_mode_behavior_title" android:key="@string/car_pref_key_driving_mode_behavior_switch"/>
+    <Preference android:title="@string/car_driving_mode_automatic_rules_preferences_title" android:key="@string/car_pref_key_automatic_rules_preferences" app:allowDividerBelow="true"/>
+    <com.google.android.gms.drivingmode.ToggleButtonPreference android:key="@string/car_pref_key_driving_mode_switch" app:allowDividerAbove="true"/>
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gradient xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:angle="0" android:type="linear" android:startX="18.88" android:startY="45" android:endX="50.14" android:endY="45">
+    <item android:color="#00676c72" android:offset="0"/>
+    <item android:color="#ff676c72" android:offset="1"/>
+</gradient>

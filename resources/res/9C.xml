@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/content_area" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/apps_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/app_icon" android:background="@android:color/transparent" android:layout_width="48dp" android:layout_height="48dp" android:contentDescription="@string/plus_manage_app_app_icon_desc"/>
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/app_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" android:layout_marginStart="8dp" style="@style/plus_AppsTextPrimary"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/content_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/scopes_layout" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="72dp" android:paddingEnd="16dp" style="@style/common.Widget.SelectableItem">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/plus_manage_app_scopes_label" style="@style/plus_AppsTextSecondary"/>
+                    <TextView android:id="@+id/scopes_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/plus_AppsTextSecondary"/>
+                </LinearLayout>
+                <Button android:layout_gravity="right" android:id="@+id/disconnect_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/plus_manage_app_disconnect_label" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_marginEnd="16dp" style="android:TextAppearance.Material.Button"/>
+                <View android:id="@+id/pacl_divider" android:background="?android:attr/listDivider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/google_plus_text_layout" android:paddingTop="16dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/plus_app_label" style="@style/plus_teal_text"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/pacl_layout" android:paddingTop="16dp" android:paddingBottom="16dp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/common.Widget.SelectableItem">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/plus_manage_app_pacl_label" style="@style/plus_AppsTextPrimary"/>
+                    <TextView android:id="@+id/pacl_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/plus_AppsTextSecondary"/>
+                </LinearLayout>
+                <View android:id="@+id/facl_divider" android:background="?android:attr/listDivider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/facl_layout" android:paddingTop="16dp" android:paddingBottom="16dp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" style="@style/common.Widget.SelectableItem">
+                    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/plus_manage_app_facl_label" style="@style/plus_AppsTextPrimary"/>
+                    <TextView android:id="@+id/facl_label" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/plus_AppsTextSecondary"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="?android:attr/listDivider" android:layout_width="match_parent" android:layout_height="1dp"/>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ProgressBar android:id="@+id/loading_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge"/>
+            </LinearLayout>
+            <LinearLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:id="@+id/disconnect_divider" android:background="?android:attr/listDivider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+                <LinearLayout android:id="@+id/disconnect_layout_gone" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/disconnect_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:id="@+id/acl_description_label" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textIsSelectable="false" style="@style/plus_AppsTextSecondary"/>
+                <View android:id="@+id/scopes_divider" android:background="?android:attr/listDivider" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="circle_creation_dialog_header_height">80dp</dimen>
+    <dimen name="circle_creation_dialog_height">178dp</dimen>
+    <dimen name="sud_decor_padding_top">128dp</dimen>
+    <dimen name="udc_consent_scrollview_height_glif">560dp</dimen>
+    <dimen name="udc_consent_scrollview_width_glif">672dp</dimen>
+</resources>

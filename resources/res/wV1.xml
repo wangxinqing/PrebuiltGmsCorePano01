@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:textStyle="bold" android:ellipsize="end" android:id="@+id/title" android:paddingLeft="@dimen/card_entry_padding_start" android:paddingRight="@dimen/card_entry_padding_start" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/CardEntrySubtext"/>
+</merge>

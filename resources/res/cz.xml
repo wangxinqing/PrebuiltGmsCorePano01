@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginBottom="24dp">
+                <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:contentDescription="@null" android:layout_marginHorizontal="6dp" app:srcCompat="@drawable/play_protect_ic_logo_40dp"/>
+                <ImageView android:layout_width="152dp" android:layout_height="24dp" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:tint="@color/play_protect_auth_content_color" android:contentDescription="@null" android:layout_marginHorizontal="6dp" app:srcCompat="@drawable/google_play_protect"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudContentFrame">
+                <ImageView android:layout_width="32dp" android:layout_height="32dp" android:layout_marginBottom="10dp" android:tint="@color/material_google_red_500" android:contentDescription="@null" app:srcCompat="@drawable/quantum_ic_warning_vd_theme_24"/>
+                <TextView android:textSize="22sp" android:textColor="@color/play_protect_auth_title_color" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="@string/play_protect_uncertified_device_notification_title" android:fontFamily="@string/sudFontSecondaryMedium" android:layout_marginVertical="8dp" android:lineHeight="28dp"/>
+                <TextView android:textSize="14sp" android:textColor="@color/play_protect_auth_content_color" android:textColorLink="@color/play_protect_auth_accent_color" android:gravity="center" android:autoLink="web" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auth_uncertified_notification_play_protect_description" android:lineHeight="20dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudGlifButtonBar">
+        <Button android:textSize="14sp" android:textColor="@color/material_grey_white_1000" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/finishButton" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:text="@string/common_got_it" android:textAllCaps="false" android:backgroundTint="@color/play_protect_auth_accent_color" android:layout_marginVertical="12dp" android:paddingHorizontal="24dp" android:lineHeight="20dp" style="@style/SudGlifButton.Primary"/>
+    </LinearLayout>
+</LinearLayout>

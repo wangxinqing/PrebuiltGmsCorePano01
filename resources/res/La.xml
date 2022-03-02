@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/contact_list_root" android:background="?attr/selectableItemBackground" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeight">
+    <QuickContactBadge android:layout_gravity="center" android:id="@+id/profile_badge" style="@style/Sharing.Settings.ContactBook.Badge"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/contact_info_layout" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:id="@+id/display_name" style="@style/Sharing.Settings.ContactBook.Button.Title"/>
+        <TextView android:id="@+id/contact_info" style="@style/Sharing.Settings.ContactBook.Button.Description"/>
+    </LinearLayout>
+    <android.support.v7.widget.SwitchCompat android:theme="@style/Sharing.Settings.ContactBook.Toggle" android:id="@+id/select_switch" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+</LinearLayout>

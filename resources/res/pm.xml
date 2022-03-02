@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="?android:attr/textColorPrimary" android:id="@+id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="0dp" android:paddingEnd="@dimen/card_entry_dot_drawable_text_padding"/>
+    <TextView android:textAppearance="?attr/textAppearanceCaption" android:textColor="?android:attr/textColorSecondary" android:id="@+id/subtext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/card_entry_dot_drawable_padding" android:drawableStart="?attr/dotDrawable" android:paddingStart="@dimen/card_entry_dot_drawable_text_padding" android:paddingEnd="0dp"/>
+</merge>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/appbar" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar android:theme="@style/DevicesList.ToolbarOverlay" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" style="@style/DevicesListToolbar"/>
+    </com.google.android.material.appbar.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/header" android:paddingTop="@dimen/devices_padding_top" android:paddingBottom="@dimen/devices_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/devices_detail_padding_start" android:paddingEnd="@dimen/devices_padding_end" style="@style/DevicesListToolbar">
+                <ImageView android:layout_gravity="center" android:id="@+id/icon" android:layout_width="48dp" android:layout_height="48dp" android:contentDescription="@null"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="0dp">
+                    <TextView android:textSize="@dimen/devices_list_text_title_size" android:textColor="?android:attr/textColorPrimary" android:ellipsize="end" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart"/>
+                    <TextView android:textSize="@dimen/devices_list_text_subtitle_size" android:textColor="?android:attr/textColorSecondary" android:ellipsize="end" android:id="@+id/description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:textAlignment="viewStart"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:id="@+id/forgetButton" android:layout_width="140dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_padding_top" android:text="@string/common_forget" android:layout_marginStart="@dimen/devices_detail_padding_start"/>
+            <android.support.v7.widget.RecyclerView android:id="@+id/sliceDetailsLink" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/devices_padding_top" android:paddingStart="28dp" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="?android:attr/listDivider" android:scaleType="fitXY" android:contentDescription="@null"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceListItemSmall" android:textSize="14sp" android:textColor="?android:attr/textColorSecondary" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/text_address" android:paddingTop="16dp" android:paddingBottom="16dp" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?android:attr/listPreferredItemHeightSmall" android:drawablePadding="24dp" android:drawableStart="@drawable/quantum_ic_info_outline_grey600_24" android:paddingStart="28dp" android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"/>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

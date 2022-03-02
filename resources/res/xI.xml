@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/auth_ic_loading" android:id="@+id/setup_wizard_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:sucUsePartnerResource="false" app:sudUsePartnerHeavyTheme="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <com.google.android.gms.common.ui.LinkTextView android:id="@+id/google_services_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auth_setup_wizard_account_added_description" style="@style/SudDescription.Glif"/>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/fm_cp_primary_contact_row" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/fm_contact_picker_contact_row"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/fm_cp_expandable_contact_rows_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

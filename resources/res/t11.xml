@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/account_picker_container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:visibility="gone" layout="@layout/common_account_selected_account"/>
+    <TextView android:ellipsize="end" android:layout_gravity="center" android:id="@+id/main_title" android:paddingLeft="@dimen/common_account_chip_account_picker_view_dialog_spacing" android:paddingTop="16dp" android:paddingRight="@dimen/common_account_chip_account_picker_view_dialog_spacing" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_choose_account_label" android:maxLines="2" style="?attr/common_account_title_text_appearance"/>
+    <include layout="@layout/common_account_account_picker_shared"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.google.android.gms.common.widget.phone.SwitchBar android:id="@+id/switch_bar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"/>
+        <TextView android:id="@+id/multi_user_info" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:drawablePadding="16dp" android:drawableStart="@drawable/quantum_ic_info_outline_grey600_24"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="?android:attr/textColorSecondary" android:id="@android:id/summary" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:textColor="#009688" android:id="@+id/learn_more_text" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/common_learn_more"/>
+    </LinearLayout>
+</ScrollView>

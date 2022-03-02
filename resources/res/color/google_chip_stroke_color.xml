@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="true" android:state_selected="true" android:color="#00000000"/>
+    <item android:state_enabled="true" android:state_pressed="true" android:color="#00000000"/>
+    <item android:state_enabled="true" android:color="?attr/colorHairline"/>
+    <item android:color="#00000000"/>
+</selector>

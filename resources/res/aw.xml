@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/quantum_ic_fingerprint_googblue_36" android:id="@+id/glif_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:sucUsePartnerResource="false">
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" style="@style/SudContentFrame">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/message" android:paddingBottom="@dimen/sud_content_frame_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudDescription.Glif"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:layout_gravity="center" android:id="@+id/fingerprint" android:paddingBottom="@dimen/sud_content_frame_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/smartdevice_fp_app_indicator" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxWidth="@dimen/smartdevice_fingerprint_image_max_size" android:maxHeight="@dimen/smartdevice_fingerprint_image_max_size" android:minWidth="@dimen/smartdevice_fingerprint_image_min_size" android:minHeight="@dimen/smartdevice_fingerprint_image_min_size"/>
+            <TextView android:layout_gravity="center" android:id="@+id/error_message" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SmartDevice.TextAppearance.FingerprintError"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

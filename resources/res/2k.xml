@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <corners android:topLeftRadius="@dimen/header_bottom_sheet_corner_radius" android:topRightRadius="@dimen/header_bottom_sheet_corner_radius"/>
+    <solid android:color="@color/gm_header_background_color_day_night"/>
+</shape>

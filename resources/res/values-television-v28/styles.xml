@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SystemUpdatePanoSetupContainerStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="SystemUpdatePanoSetupTheme">
+        <item name="android:textAppearanceMedium">@style/SystemUpdatePanoTextAppearanceMedium</item>
+        <item name="android:textAppearanceSmall">@style/SystemUpdatePanoTextAppearanceSmall</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="guidanceContainerStyle">@style/SystemUpdatePanoSetup.GuidanceContainerStyle</item>
+        <item name="guidanceDescriptionStyle">@style/SystemUpdatePanoSetup.GuidanceDescriptionStyle</item>
+        <item name="guidanceTitleStyle">@style/SystemUpdatePanoSetup.GuidanceTitleStyle</item>
+    </style>
+    <style name="SystemUpdateTvSetupMainTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

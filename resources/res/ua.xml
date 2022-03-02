@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/spinner_linear_layout" android:background="#4285f4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatSpinner android:id="@+id/network_stats_spinner" android:padding="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:backgroundTint="@android:color/white"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/network_usage_activity_advanced_content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

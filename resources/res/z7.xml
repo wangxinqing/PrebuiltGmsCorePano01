@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/quantum_ic_search_black_24" android:id="@+id/gh_menu_search" android:visible="false" android:title="@string/gh_default_help_box_string" android:iconifiedByDefault="true" app:actionViewClass="android.support.v7.widget.SearchView" app:showAsAction="never|ifRoom|collapseActionView"/>
+    <item android:icon="@drawable/quantum_ic_share_black_24" android:id="@+id/gh_menu_share_article" android:visible="false" android:title="@string/gh_menu_share_article" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/gh_menu_feedback" android:title="@string/gh_menu_feedback"/>
+    <item android:id="@+id/gh_menu_play_store" android:title="@string/gh_menu_play_store"/>
+    <item android:id="@+id/gh_menu_print" android:title="@string/gh_menu_print"/>
+    <item android:id="@+id/gh_menu_clear_history" android:title="@string/gh_menu_clear_history"/>
+    <item android:id="@+id/gh_menu_version_info" android:title="@string/gh_menu_version_info"/>
+</menu>

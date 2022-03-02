@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/mdd_debug_container" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/refresh_file_group_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Refresh File Group List"/>
+    <Button android:id="@+id/delete_all_downloaded_files" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Delete All Downloaded Files"/>
+    <Button android:id="@+id/trigger_download" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Trigger All Pending Downloads"/>
+    <TextView android:textSize="20sp" android:layout_gravity="center" android:id="@+id/file_groups" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="All File Groups on the device in gmscore"/>
+    <Space android:layout_width="1dp" android:layout_height="10dp"/>
+    <ListView android:id="@+id/file_group_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="File Group List"/>
+</LinearLayout>

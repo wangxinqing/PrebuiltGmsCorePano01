@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_enabled="false" android:state_checked="false" android:drawable="@drawable/ic_plusone_small_disabled"/>
+    <item android:state_enabled="false" android:drawable="@drawable/ic_plusone_small_off_blank"/>
+    <item android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/ic_plusone_small_pressed"/>
+    <item android:state_checked="true" android:drawable="@drawable/ic_plusone_small_on"/>
+    <item android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/ic_plusone_small_pressed"/>
+    <item android:state_checked="false" android:drawable="@drawable/ic_plusone_small_off"/>
+</selector>

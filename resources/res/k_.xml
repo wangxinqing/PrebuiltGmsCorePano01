@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <files-path name="mms" path="mms/"/>
+    <files-path name="bugreports" path="bugreports/"/>
+    <external-files-path name="screendump" path="auto/"/>
+    <cache-path name="googlehelp" path="googlehelp/"/>
+    <files-path name="googlehelp_gH_async_psd" path="gH_async_psd/"/>
+    <files-path name="feedback_reports" path="reports/"/>
+    <cache-path name="internal_cache" path="compactlog/"/>
+    <external-path name="photos_from_camera" path="Apppreviewmessages/uploadmedia/"/>
+    <external-path name="download" path="Download/"/>
+    <external-path name="nearby_connections_files" path="Download/Nearby/"/>
+    <external-path name="nearby_sharing_dcim" path="DCIM/Nearby Sharing/"/>
+    <cache-path name="nearby_sharing_images" path="nearby/sharing/images/"/>
+    <cache-path name="nearby_bluetooth_metadata" path="nearby_bluetooth_metadata/"/>
+    <cache-path name="avatar_internal_cache" path="avatars/"/>
+    <files-path name="avatar_internal_files" path="avatars/"/>
+    <external-path name="avatar_external" path="avatars/"/>
+    <cache-path name="debug" path="com.google.android.gms.photos.autobackup.debugfiles/"/>
+    <cache-path name="document" path="wallet_document_cache/"/>
+</paths>

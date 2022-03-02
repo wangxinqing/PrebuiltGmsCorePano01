@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/card" android:layout_height="wrap_content" android:divider="@drawable/sharing_divider" android:showDividers="middle" android:transitionName="card" style="@style/Sharing.Setup.Content">
+        <FrameLayout android:id="@+id/toolbar_wrapper" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.v7.widget.Toolbar android:theme="@style/Sharing.Setup.ToolbarOverlay" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:layout_marginTop="4dp" app:popupTheme="@style/Sharing.Setup.PopupOverlay"/>
+            <TextView android:id="@+id/toolbar_title" android:text="@string/sharing_setup_title" style="@style/Sharing.CardActivity.ToolbarTitle"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/device_name_btn" android:background="?attr/selectableItemBackground" android:padding="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sharing_setup_subtitle_device_name" style="@style/Sharing.Setup.Title"/>
+                <TextView android:id="@+id/device_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Sharing.Setup.Description"/>
+            </LinearLayout>
+            <com.google.android.gms.nearby.sharing.view.GoogleAccountAvatar android:layout_gravity="center" android:id="@+id/change_account" android:paddingTop="12dp" android:paddingBottom="20dp" android:layout_width="72dp" android:layout_height="72dp" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/visibility" android:background="?attr/selectableItemBackground" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sharing_setup_visibility" style="@style/Sharing.Setup.Title"/>
+            <LinearLayout android:orientation="horizontal" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/visibility_icon" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" style="@style/Sharing.Setup.Icon"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp">
+                    <TextView android:textSize="14sp" android:textStyle="bold" android:id="@+id/visibility_label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Sharing.Setup.Description"/>
+                    <TextView android:textSize="14sp" android:id="@+id/visibility_sublabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Sharing.Setup.Description"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="start" android:id="@+id/cancel" android:text="@string/sharing_setup_button_close" style="@style/Sharing.Setup.Button.Borderless"/>
+            <Button android:layout_gravity="end" android:id="@+id/enable" android:text="@string/sharing_setup_button_enable" style="@style/Sharing.Setup.Button"/>
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

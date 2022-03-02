@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar android:id="@+id/toolbar" android:background="@color/appinvite_action_bar_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/actionBarSize" android:elevation="4dp" app:theme="@style/Widget.AppCompat.ActionBar" app:titleTextAppearance="@style/appInviteTitleTextStyle"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@+id/selection_content" android:layout_width="match_parent" android:layout_height="match_parent">
+            <FrameLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/select_frame" android:layout_alignParentTop="true"/>
+            <FrameLayout android:id="@+id/select_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <TextView android:gravity="center" android:id="@+id/select" android:paddingTop="20dp" android:paddingBottom="20dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_ok" android:onClick="onClick" style="@style/common.Widget.SelectableItem"/>
+            </FrameLayout>
+        </RelativeLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:padding="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true"/>
+    </FrameLayout>
+</LinearLayout>

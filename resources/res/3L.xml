@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/loading_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/credentials_gis_full_googlelogo_header"/>
+    <com.google.android.libraries.material.progress.MaterialProgressBar android:layout_gravity="center" android:id="@+id/loading_progress" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" app:mtrlLinearGrowFrom="1" style="@style/Widget.GoogleLib.Progress.Circular.Indeterminate.Large"/>
+</LinearLayout>

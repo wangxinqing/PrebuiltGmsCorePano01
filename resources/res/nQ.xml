@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/usage_reporting" android:visible="false" android:title="@string/common_usage_and_diagnostics"/>
+    <item android:id="@+id/settings_oss_licenses" android:title="@string/common_open_source_licenses"/>
+    <item android:id="@+id/show_hide_debug" android:visible="false"/>
+    <item android:id="@+id/settings_help" android:title="@string/common_list_apps_menu_help_and_feedback"/>
+</menu>

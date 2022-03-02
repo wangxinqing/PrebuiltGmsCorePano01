@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/audience_selection_update_circle_view" android:background="@drawable/plus_add_to_circles_selector" android:layout_width="match_parent" android:layout_height="@dimen/plus_audience_selection_list_update_item_height" style="@style/common.Widget.SelectableItem">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/audience_selection_checkbox_frame" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginEnd="@dimen/plus_audience_selection_list_update_item_padding">
+            <CheckBox android:id="@+id/audience_selection_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dp" android:button="@drawable/plus_audience_selection_checkbox"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/plus_add_to_circles_text_size" android:textColor="@color/plus_audience_selection_update_text_color" android:ellipsize="middle" android:id="@+id/audience_selection_circle_name" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:fontFamily="sans-serif" android:layout_marginStart="@dimen/plus_audience_selection_list_update_item_padding" android:layout_marginEnd="@dimen/plus_audience_selection_list_count_padding" android:layout_toStartOf="@+id/audience_selection_checkbox_frame"/>
+    </RelativeLayout>
+</merge>

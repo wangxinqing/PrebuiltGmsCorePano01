@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/quantum_gm_ic_phone_android_gm_blue_36" android:layout_width="match_parent" android:layout_height="match_parent" app:sucUsePartnerResource="false">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudContentFrame">
+        <TextView android:id="@+id/message" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudDescription.Glif"/>
+    </FrameLayout>
+</com.google.android.setupdesign.GlifLayout>

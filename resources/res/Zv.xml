@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.common.widget.phone.SnackbarLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/snackbar" android:background="@drawable/credential_snackbar_background" android:padding="0dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/CredentialsTvHalfSizeLayout">
+        <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:src="@drawable/googleg_light_color_64"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="32dp" android:layout_weight="1">
+            <TextView android:textAppearance="@style/CredentialsTvHalfSizeLayoutBreadcrumbText" android:background="@color/credentials_tv_snackbar_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/credentials_product_name_no_google" android:lineSpacingMultiplier="1.221"/>
+            <TextView android:textAppearance="@style/CredentialsTvHalfSizeLayoutTitleText" android:id="@+id/credentials_auto_signin_tv_title" android:background="@color/credentials_tv_snackbar_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp"/>
+            <TextView android:textAppearance="@style/CredentialsTvHalfSizeLayoutBodyText" android:background="@color/credentials_tv_snackbar_background" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="18dp" android:text="@string/credentials_auto_signin_warm_welcome" android:layout_weight="1" android:lineSpacingMultiplier="1.465"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingTop="27dp" android:layout_width="304dp" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+            <Button android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/common_got_it" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/common_got_it" android:elevation="4dp" style="@style/CredentialsTvActionItem"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.gms.common.widget.phone.SnackbarLayout>

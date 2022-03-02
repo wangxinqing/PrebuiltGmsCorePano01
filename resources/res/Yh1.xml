@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" android:transitionName="@string/as_header_transition_name" app:titleTextAppearance="@style/AsToolbarTitleTextAppearance">
+    <com.google.android.libraries.material.productlockup.ProductLockupView android:layout_gravity="center" android:id="@+id/mg_lockup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_asm_google_account_title"/>
+    <FrameLayout android:layout_gravity="end" android:id="@+id/collapsed_avatar_placeholder_frame" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Space android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/collapsed_avatar_placeholder" android:layout_width="@dimen/as_collapsed_avatar_size" android:layout_height="@dimen/as_collapsed_avatar_size" android:layout_marginLeft="0dp" android:layout_marginRight="@dimen/as_appbar_collapsed_avatar_end_margin" android:layout_marginStart="0dp" android:layout_marginEnd="@dimen/as_appbar_collapsed_avatar_end_margin"/>
+        <View android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/collapsed_avatar_touch_view" android:visibility="gone" android:layout_width="@dimen/as_collapsed_avatar_touch_view_size" android:layout_height="@dimen/as_collapsed_avatar_touch_view_size"/>
+        <android.support.v7.widget.ActionMenuView android:layout_gravity="end" android:id="@+id/custom_menu" android:layout_width="wrap_content" android:layout_height="?attr/actionBarSize"/>
+    </FrameLayout>
+</android.support.v7.widget.Toolbar>

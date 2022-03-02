@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:padding="22dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioGroup android:orientation="vertical" android:id="@+id/data_usage_radio_group" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RadioButton android:layout_gravity="center" android:id="@+id/data_usage_button_always" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" style="@style/Sharing.Settings.RadioButton"/>
+            <RadioButton android:layout_gravity="center" android:id="@+id/data_usage_button_wifi" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" style="@style/Sharing.Settings.RadioButton"/>
+            <RadioButton android:layout_gravity="center" android:id="@+id/data_usage_button_never" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1" style="@style/Sharing.Settings.RadioButton"/>
+        </RadioGroup>
+        <com.google.android.gms.nearby.sharing.view.RadioButtonChoiceView android:orientation="vertical" android:id="@+id/radioButtonChoices" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="?attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+                <TextView android:text="@string/sharing_settings_data_usage_item_always" style="@style/Sharing.Settings.Button.Title"/>
+                <TextView android:text="@string/sharing_settings_data_usage_item_always_description" style="@style/Sharing.Settings.Button.Description"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="?attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+                <TextView android:text="@string/sharing_settings_data_usage_item_wifi" style="@style/Sharing.Settings.Button.Title"/>
+                <TextView android:text="@string/sharing_settings_data_usage_item_wifi_description" style="@style/Sharing.Settings.Button.Description"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="?attr/selectableItemBackground" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="8dp" android:paddingEnd="8dp">
+                <TextView android:text="@string/sharing_settings_data_usage_item_never" style="@style/Sharing.Settings.Button.Title"/>
+                <TextView android:text="@string/sharing_settings_data_usage_item_never_description" style="@style/Sharing.Settings.Button.Description"/>
+            </LinearLayout>
+        </com.google.android.gms.nearby.sharing.view.RadioButtonChoiceView>
+    </LinearLayout>
+</ScrollView>

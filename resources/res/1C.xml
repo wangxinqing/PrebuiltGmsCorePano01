@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/location_on" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.gms.common.widget.phone.SwitchBar android:id="@+id/switch_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:textOff="@string/location_settings_location_accuracy_switch_bar_text" app:textOn="@string/location_settings_location_accuracy_switch_bar_text"/>
+    <TextView android:textStyle="bold" android:textColor="@color/google_blue600" android:id="@+id/title_text" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/location_settings_location_accuracy_activity_title" android:paddingStart="16dp" android:paddingEnd="16dp"/>
+    <TextView android:id="@+id/summary_text" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/location_settings_location_accuracy_activity_summary"/>
+</LinearLayout>

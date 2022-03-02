@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/fm_toolbar"/>
+    <include android:id="@+id/fm_management_loading_screen" layout="@layout/fm_layout_loading_fullscreen"/>
+    <ScrollView android:id="@+id/fm_management_content_screen" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_gravity="start" android:id="@+id/fm_management_body_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fm_manage_confirmation_margin_side" android:layout_marginTop="24dp" android:layout_marginRight="@dimen/fm_manage_confirmation_margin_side" android:layout_marginBottom="24dp" android:lineSpacingExtra="4sp" android:layout_marginStart="@dimen/fm_manage_confirmation_margin_side" android:layout_marginEnd="@dimen/fm_manage_confirmation_margin_side" style="@style/TextAppearance.AppCompat.Body1"/>
+            <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <Button android:id="@+id/fm_management_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+                <Button android:id="@+id/fm_management_action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

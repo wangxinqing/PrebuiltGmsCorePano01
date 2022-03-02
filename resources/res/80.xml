@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<injected-location-setting xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/ic_google" android:title="@LEMON_transformed_from_string/location_accuracy_setting_label" android:settingsActivity="com.google.android.gms.location.settings.LocationAccuracyActivity"/>

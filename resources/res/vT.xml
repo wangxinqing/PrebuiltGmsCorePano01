@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/quantum_gm_ic_compare_arrows_gm_blue_36" android:id="@+id/glif_layout" android:layout_width="match_parent" android:layout_height="match_parent" app:sucHeaderText="@string/smartdevice_verify_phone" app:sucUsePartnerResource="false" app:sudUsePartnerHeavyTheme="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudContentFrame">
+        <TextView android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="48dp" android:text="@string/smartdevice_look_for_other_device" style="@style/SudDescription.Glif"/>
+        <include layout="@layout/smartdevice_device_list_item"/>
+    </LinearLayout>
+</com.google.android.setupdesign.GlifLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_allow_stacked_button_bar">false</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="common_should_fix_dialog_height">false</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="core_google_settings_launcher">true</bool>
+    <bool name="driving_mode_text_all_caps">true</bool>
+    <bool name="gh_is_right_to_left">false</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="mdm_use_all_caps">true</bool>
+    <bool name="platformIsAtLeastL">true</bool>
+    <bool name="platformIsAtLeastM">false</bool>
+    <bool name="platformIsAtLeastQ">false</bool>
+    <bool name="platformIsAtLeastR">false</bool>
+    <bool name="plus_is_tablet">false</bool>
+    <bool name="plus_links_underlined">false</bool>
+    <bool name="show_dpad_navigable_web_view">false</bool>
+    <bool name="sudUseTabletLayout">false</bool>
+    <bool name="task_execution_service_enabled">true</bool>
+</resources>

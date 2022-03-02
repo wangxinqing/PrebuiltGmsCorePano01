@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V14.ThemeOverlay.GoogleMaterial.MaterialAlertDialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.GoogleMaterial.CheckedTextView</item>
+        <item name="?0x1010571">@dimen/google_dialog_corner_radius</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.GoogleMaterial</item>
+        <item name="buttonBarButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog.Flush</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.GoogleMaterial.Body.Text</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.GoogleMaterial.Title.Text</item>
+    </style>
+    <style name="Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.MaterialComponents.CheckedTextView</item>
+        <item name="?0x1010571">@null</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.MaterialComponents</item>
+        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat">
+        <item name="dialogCornerRadius">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light">
+        <item name="dialogCornerRadius">?unknown_attr_ref: 1010571</item>
+    </style>
+    <style name="DrivingModeButtonPreference.Button">
+        <item name="android:paddingLeft">@dimen/driving_mode_button_padding</item>
+        <item name="android:paddingRight">@dimen/driving_mode_button_padding</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="?0x1010575">@dimen/driving_mode_button_corner_radius</item>
+        <item name="textAllCaps">@bool/driving_mode_text_all_caps</item>
+    </style>
+    <style name="SucPartnerCustomizationButton.Primary">
+        <item name="android:theme">@style/SucPartnerCustomizationButton.Primary</item>
+        <item name="android:buttonStyle">@style/SucPartnerCustomizationButton.Primary</item>
+        <item name="android:paddingLeft">@dimen/suc_customization_button_padding</item>
+        <item name="android:paddingRight">@dimen/suc_customization_button_padding</item>
+        <item name="android:textAllCaps">?attr/sucFooterBarButtonAllCaps</item>
+        <item name="android:fontFamily">?attr/sucFooterBarButtonFontFamily</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="?0x1010575">?attr/sucFooterBarButtonCornerRadius</item>
+    </style>
+    <style name="SucPartnerCustomizationButton.Secondary">
+        <item name="android:theme">@style/SucPartnerCustomizationButton.Secondary</item>
+        <item name="android:buttonStyle">@style/SucPartnerCustomizationButton.Secondary</item>
+        <item name="android:paddingLeft">@dimen/suc_customization_button_padding</item>
+        <item name="android:paddingRight">@dimen/suc_customization_button_padding</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAllCaps">?attr/sucFooterBarButtonAllCaps</item>
+        <item name="android:fontFamily">?attr/sucFooterBarButtonFontFamily</item>
+        <item name="android:colorControlHighlight">@color/suc_customization_button_highlight_ripple</item>
+        <item name="?0x1010575">?attr/sucFooterBarButtonCornerRadius</item>
+        <item name="sucFooterBarButtonColorControlHighlight">@color/suc_customization_button_highlight_ripple</item>
+    </style>
+    <style name="SudGlifButton.Primary">
+        <item name="android:theme">@style/SudGlifButton.Primary</item>
+        <item name="android:buttonStyle">@style/SudGlifButton.Primary</item>
+        <item name="android:paddingLeft">@dimen/sud_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/sud_glif_button_padding</item>
+        <item name="android:textAllCaps">?attr/sudButtonAllCaps</item>
+        <item name="android:fontFamily">?attr/sudButtonFontFamily</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="?0x1010575">?attr/sudButtonCornerRadius</item>
+        <item name="buttonStyle">@style/SudGlifButton.Primary</item>
+        <item name="textAllCaps">?attr/sudButtonAllCaps</item>
+    </style>
+    <style name="SudGlifButton.Secondary">
+        <item name="android:theme">@style/SudGlifButton.Secondary</item>
+        <item name="android:buttonStyle">@style/SudGlifButton.Secondary</item>
+        <item name="android:paddingLeft">@dimen/sud_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/sud_glif_button_padding</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAllCaps">?attr/sudButtonAllCaps</item>
+        <item name="android:fontFamily">?attr/sudButtonFontFamily</item>
+        <item name="android:colorControlHighlight">@color/sud_flat_button_highlight</item>
+        <item name="?0x1010575">?attr/sudButtonCornerRadius</item>
+        <item name="buttonStyle">@style/SudGlifButton.Secondary</item>
+        <item name="colorControlHighlight">@color/sud_flat_button_highlight</item>
+        <item name="textAllCaps">?attr/sudButtonAllCaps</item>
+    </style>
+    <style name="SuwGlifButton.Primary">
+        <item name="android:theme">@style/SuwGlifButton.Primary</item>
+        <item name="android:buttonStyle">@style/SuwGlifButton.Primary</item>
+        <item name="android:paddingLeft">@dimen/suw_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/suw_glif_button_padding</item>
+        <item name="android:textAllCaps">?attr/suwButtonAllCaps</item>
+        <item name="android:fontFamily">?attr/suwButtonFontFamily</item>
+        <item name="?0x1010575">?attr/suwButtonCornerRadius</item>
+        <item name="buttonStyle">@style/SuwGlifButton.Primary</item>
+        <item name="textAllCaps">?attr/suwButtonAllCaps</item>
+    </style>
+    <style name="SuwGlifButton.Secondary">
+        <item name="android:theme">@style/SuwGlifButton.Secondary</item>
+        <item name="android:buttonStyle">@style/SuwGlifButton.Secondary</item>
+        <item name="android:paddingLeft">@dimen/suw_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/suw_glif_button_padding</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAllCaps">?attr/suwButtonAllCaps</item>
+        <item name="android:fontFamily">?attr/suwButtonFontFamily</item>
+        <item name="android:colorControlHighlight">@color/suw_flat_button_highlight</item>
+        <item name="?0x1010575">?attr/suwButtonCornerRadius</item>
+        <item name="buttonStyle">@style/SuwGlifButton.Secondary</item>
+        <item name="colorControlHighlight">@color/suw_flat_button_highlight</item>
+        <item name="textAllCaps">?attr/suwButtonAllCaps</item>
+    </style>
+    <style name="common.Widget.Base.SwitchBar.GoogleSettings">
+        <item name="colorAccent">@color/material_google_blue_600</item>
+        <item name="colorControlHighlight">@color/ripple_material_dark</item>
+    </style>
+</resources>

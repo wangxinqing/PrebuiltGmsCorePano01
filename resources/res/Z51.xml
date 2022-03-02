@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/otp_dialog" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.AppCompat.Title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/auth_otp_header_message"/>
+        <TextView android:id="@+id/otp_explaination" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/auth_otp_explained_paragraph"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/otp_wheel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <ProgressBar android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" style="?android:attr/progressBarStyle"/>
+            <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/auth_otp_progress_dialog_message"/>
+        </LinearLayout>
+        <TextView android:id="@+id/otp_error" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/auth_otp_error"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/otp_results" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp">
+            <TextView android:textSize="44sp" android:textColor="?android:attr/textColorPrimary" android:id="@+id/otp_code" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView android:id="@+id/otp_no_accounts_available" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/auth_otp_no_accounts_available_message"/>
+    </LinearLayout>
+</ScrollView>

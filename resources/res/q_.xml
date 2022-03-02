@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.setupdesign.GlifLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:icon="@drawable/quantum_gm_ic_compare_arrows_gm_blue_36" android:id="@+id/setup_info" android:layout_width="match_parent" android:layout_height="match_parent" app:sucUsePartnerResource="false">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" style="@style/SudContentFrame">
+        <TextView android:id="@+id/setup_info_text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudDescription.Glif"/>
+    </RelativeLayout>
+</com.google.android.setupdesign.GlifLayout>

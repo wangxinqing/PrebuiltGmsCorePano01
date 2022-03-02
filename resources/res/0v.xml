@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@+id/permission_bullet_point" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="•" style="@style/TextAppearance.Theme.Dialog"/>
+    <TextView android:id="@+id/permission_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignTop="@+id/permission_bullet_point" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/permission_bullet_point" android:layout_alignParentEnd="true" style="@style/TextAppearance.Theme.Dialog"/>
+    <TextView android:id="@+id/permission_explanation" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/permission_bullet_point" android:layout_alignStart="@+id/permission_name" style="@style/TextAppearance.Small"/>
+</RelativeLayout>

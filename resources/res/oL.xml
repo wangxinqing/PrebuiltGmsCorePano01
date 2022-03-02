@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt">
+    <translate android:interpolator="@android:anim/decelerate_interpolator" android:duration="@integer/as_screen_transition_duration" android:fromYDelta="100%" android:toYDelta="0"/>
+</set>

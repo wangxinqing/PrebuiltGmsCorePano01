@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <selector android:enterFadeDuration="@android:integer/config_mediumAnimTime" android:exitFadeDuration="@android:integer/config_mediumAnimTime">
+            <item android:state_pressed="true">
+                <shape android:shape="oval">
+                    <solid android:color="@color/sharing_drawable_circle_button_background_pressed"/>
+                    <size android:height="50dp" android:width="50dp"/>
+                </shape>
+            </item>
+            <item>
+                <shape android:shape="oval">
+                    <solid android:color="@color/sharing_drawable_circle_button_background"/>
+                    <size android:height="50dp" android:width="50dp"/>
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:gravity="center" android:top="14dp" android:bottom="14dp">
+        <bitmap android:src="@drawable/quantum_gm_ic_content_copy_black_24" android:tint="@color/sharing_color_accent"/>
+    </item>
+</layer-list>

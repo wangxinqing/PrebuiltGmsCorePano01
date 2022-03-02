@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/action_holder" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/SudGlifButtonBar">
+    <Button android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/secondary_action" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SudGlifButton.Secondary"/>
+    <Button android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/primary_action" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SudGlifButton.Primary"/>
+</FrameLayout>

@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AsAppTheme">
+    </style>
+    <style name="AsAppThemeDark">
+    </style>
+    <style name="AsBaseAppThemeDarkV23">
+        <item name="android:colorPrimaryDark">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?attr/asSystemBarColor</item>
+        <item name="?0x10104e0">false</item>
+    </style>
+    <style name="AsBaseAppThemeLightV23">
+        <item name="android:colorPrimaryDark">?android:attr/colorBackground</item>
+        <item name="android:statusBarColor">?attr/asSystemBarColor</item>
+        <item name="?0x10104e0">true</item>
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu">
+    </style>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.Theme.GoogleMaterial.Light">
+    </style>
+    <style name="Base.V23.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:attr/actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:attr/actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:attr/actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:attr/ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.GoogleMaterial.Light">
+        <item name="?0x10104e0">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored">
+    </style>
+    <style name="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText">
+        <item name="?0x10104dd">@null</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator">
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Small">
+    </style>
+    <style name="Base.Widget.AppCompat.Spinner.Underlined">
+    </style>
+    <style name="Base.Widget.AppCompat.TextView">
+        <item name="?0x10104dd">1</item>
+        <item name="?0x10104de">@null</item>
+    </style>
+    <style name="CardView">
+        <item name="cardBackgroundColor">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="DialogNoTitleTheme">
+        <item name="android:listPreferredItemHeight">@dimen/sud_items_preferred_height</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColorLink">@color/sud_link_color_dark</item>
+        <item name="android:windowAnimationStyle">@style/Animation.SudWindowAnimation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateHidden</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:indeterminateTint">@color/sud_progress_bar_color_dark</item>
+        <item name="android:indeterminateTintMode">src_in</item>
+    </style>
+    <style name="HalfSheetButton">
+        <item name="android:colorBackground">@color/fast_pair_half_sheet_color_accent</item>
+        <item name="android:textColor">@color/fast_pair_half_sheet_button_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="HalfSheetButtonBorderless">
+        <item name="android:textColor">@color/fast_pair_half_sheet_color_accent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="HalfSheetStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="IdentityWhiteAppTheme">
+        <item name="?0x10104e0">true</item>
+        <item name="colorPrimaryDark">@color/material_grey_200</item>
+    </style>
+    <style name="Sharing.CardActivity">
+        <item name="android:textColorSecondary">@color/sharing_color_secondary_text</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:homeAsUpIndicator">@drawable/quantum_gm_ic_clear_vd_theme_24</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:strokeColor">@color/sharing_stroke_color</item>
+        <item name="android:colorButtonNormal">?attr/colorAccent</item>
+        <item name="android:windowEnterTransition">@transition/sharing_window_enter_transition</item>
+        <item name="android:windowSharedElementEnterTransition">@transition/sharing_window_shared_element_enter_transition</item>
+        <item name="android:windowSharedElementExitTransition">@transition/sharing_window_shared_element_exit_transition</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementReturnTransition">@transition/sharing_window_shared_element_return_transition</item>
+        <item name="android:windowSharedElementReenterTransition">@transition/sharing_window_shared_element_reenter_transition</item>
+        <item name="android:windowSharedElementsUseOverlay">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="?0x10104e0">true</item>
+        <item name="colorAccent">@color/sharing_color_accent</item>
+        <item name="colorButtonNormal">?attr/colorAccent</item>
+        <item name="colorError">@color/sharing_color_error</item>
+        <item name="colorPrimary">@color/sharing_color_primary</item>
+        <item name="colorPrimaryDark">@color/sharing_color_primary</item>
+    </style>
+    <style name="Sharing.CardActivity.FooterTextView">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:drawableStart">@drawable/quantum_gm_ic_info_outline_vd_theme_24</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="?0x10104d6">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="Sharing.CardActivity.ToolbarTitle">
+        <item name="android:textAppearance">@style/TextAppearance.GoogleMaterial.Headline5</item>
+        <item name="android:gravity">left|right|center_vertical|center_horizontal|fill_horizontal|center|clip_horizontal</item>
+        <item name="android:layout_gravity">left|right|center_vertical|center_horizontal|fill_horizontal|center|clip_horizontal</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:paddingStart">48dp</item>
+        <item name="android:paddingEnd">48dp</item>
+        <item name="android:accessibilityLiveRegion">assertive</item>
+    </style>
+    <style name="Sharing.Consents">
+    </style>
+    <style name="Sharing.Consents.Account">
+    </style>
+    <style name="Sharing.Consents.Account.Icon">
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="Sharing.Consents.Account.Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_gravity">left|center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Sharing.Consents.Button">
+        <item name="android:textColor">@color/sharing_color_button_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.Consents.Button.Borderless">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.Consents.Content">
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:layout_gravity">top|left|center_vertical|center_horizontal|center</item>
+        <item name="android:background">@drawable/sharing_bottom_card_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">254dp</item>
+    </style>
+    <style name="Sharing.Consents.Description">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+    <style name="Sharing.Consents.Intro">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+    </style>
+    <style name="Sharing.Consents.PopupOverlay">
+    </style>
+    <style name="Sharing.Consents.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+    </style>
+    <style name="Sharing.Consents.ToolbarOverlay">
+        <item name="actionMenuTextColor">?attr/colorAccent</item>
+        <item name="displayOptions">@null</item>
+    </style>
+    <style name="Sharing.ReceiveSurface">
+    </style>
+    <style name="Sharing.ReceiveSurface.Button">
+        <item name="android:textColor">@color/sharing_color_button_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.ReceiveSurface.Button.Borderless">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.ReceiveSurface.Content">
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:layout_gravity">top|left|center_vertical|center_horizontal|center</item>
+        <item name="android:background">@drawable/sharing_bottom_card_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">@dimen/sharing_receiver_surface_content_min_height</item>
+    </style>
+    <style name="Sharing.ReceiveSurface.PopupOverlay">
+    </style>
+    <style name="Sharing.ReceiveSurface.ToolbarOverlay">
+        <item name="android:background">@null</item>
+        <item name="android:displayOptions">e</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+        <item name="displayOptions">e</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    <style name="Sharing.Settings">
+        <item name="android:alertDialogTheme">@style/Sharing.Settings.AlertDialog</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+        <item name="colorAccent">@color/sharing_color_accent</item>
+        <item name="colorButtonNormal">?attr/colorAccent</item>
+        <item name="colorControlActivated">@color/sharing_color_primary</item>
+        <item name="colorControlNormal">@color/sharing_color_primary</item>
+        <item name="colorError">@color/sharing_color_error</item>
+        <item name="colorPrimary">@color/sharing_color_primary</item>
+        <item name="colorPrimaryDark">@color/sharing_color_primary</item>
+        <item name="colorSurface">@color/sharing_color_primary</item>
+        <item name="colorSwitchThumbNormal">@color/sharing_color_primary</item>
+        <item name="elevation">0dp</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Sharing.Settings.ActionBar">
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+        <item name="android:contentInsetStart">16dp</item>
+    </style>
+    <style name="Sharing.Settings.AlertDialog">
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_light</item>
+        <item name="android:windowSoftInputMode">adjustUnspecified|stateHidden</item>
+        <item name="android:actionBarStyle">@style/Sharing.Settings.ActionBar</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+        <item name="?0x1010571">8dp</item>
+    </style>
+    <style name="Sharing.Settings.AppBarOverlay">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Sharing.Settings.Button">
+    </style>
+    <style name="Sharing.Settings.Button.Description">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Sharing.Settings.Button.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Sharing.Settings.ContactBook">
+    </style>
+    <style name="Sharing.Settings.ContactBook.Badge">
+        <item name="android:layout_gravity">left|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="android:layout_width">76dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:tint">@null</item>
+    </style>
+    <style name="Sharing.Settings.ContactBook.Button">
+    </style>
+    <style name="Sharing.Settings.ContactBook.Button.Description">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Sharing.Settings.ContactBook.Button.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Sharing.Settings.ContactBook.Toggle">
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">@dimen/sharing_settings_padding_end</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="switchStyle">@style/Widget.MaterialComponents.CompoundButton.Switch</item>
+    </style>
+    <style name="Sharing.Settings.EditText">
+    </style>
+    <style name="Sharing.Settings.EditText.Theme">
+        <item name="android:fontFamily">@font/google_sans_medium</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="colorAccent">@color/sharing_color_accent</item>
+        <item name="colorError">@color/sharing_color_error</item>
+        <item name="colorPrimary">@color/sharing_color_accent</item>
+        <item name="colorPrimaryDark">@color/sharing_color_accent</item>
+    </style>
+    <style name="Sharing.Settings.Icon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:tint">?android:attr/textColorSecondary</item>
+        <item name="android:importantForAccessibility">no</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">32dp</item>
+    </style>
+    <style name="Sharing.Settings.PopupOverlay">
+    </style>
+    <style name="Sharing.Settings.RadioButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:buttonTint">@color/sharing_color_accent</item>
+    </style>
+    <style name="Sharing.Settings.Subtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:paddingTop">@dimen/sharing_settings_padding_top</item>
+        <item name="android:paddingBottom">@dimen/sharing_settings_padding_bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">@dimen/sharing_settings_padding_start</item>
+        <item name="android:paddingEnd">@dimen/sharing_settings_padding_end</item>
+    </style>
+    <style name="Sharing.Settings.Toggle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/sharing_button_text_color</item>
+        <item name="android:layout_gravity">clip_horizontal</item>
+        <item name="android:background">@drawable/sharing_bg_toggle</item>
+        <item name="android:paddingTop">@dimen/sharing_settings_padding_top</item>
+        <item name="android:paddingBottom">@dimen/sharing_settings_padding_bottom</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:paddingStart">@dimen/sharing_settings_padding_start</item>
+        <item name="android:paddingEnd">@dimen/sharing_settings_padding_end</item>
+    </style>
+    <style name="Sharing.Settings.ToolbarOverlay">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="Sharing.Setup">
+    </style>
+    <style name="Sharing.Setup.Button">
+        <item name="android:textColor">@color/sharing_color_button_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.Setup.Button.Borderless">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.Setup.Content">
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:layout_gravity">top|left|center_vertical|center_horizontal|center</item>
+        <item name="android:background">@drawable/sharing_bottom_card_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">154dp</item>
+    </style>
+    <style name="Sharing.Setup.Default">
+    </style>
+    <style name="Sharing.Setup.Default.All">
+        <item name="people_back">@color/sharing_drawable_visibility_icon_unselected_designating_on</item>
+        <item name="person_front">@color/sharing_drawable_visibility_icon_unselected_designating_on</item>
+    </style>
+    <style name="Sharing.Setup.Default.None">
+        <item name="people_back">@color/sharing_drawable_visibility_icon_unselected_designating_off</item>
+        <item name="person_front">@color/sharing_drawable_visibility_icon_unselected_designating_off</item>
+    </style>
+    <style name="Sharing.Setup.Default.Some">
+        <item name="people_back">@color/sharing_drawable_visibility_icon_unselected_designating_off</item>
+        <item name="person_front">@color/sharing_drawable_visibility_icon_unselected_designating_on</item>
+    </style>
+    <style name="Sharing.Setup.Description">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    <style name="Sharing.Setup.Icon">
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+    <style name="Sharing.Setup.PopupOverlay">
+    </style>
+    <style name="Sharing.Setup.Select">
+    </style>
+    <style name="Sharing.Setup.Select.All">
+        <item name="people_back">@color/sharing_drawable_visibility_icon_back_selected</item>
+        <item name="person_front">@color/sharing_drawable_visibility_icon_front_selected</item>
+    </style>
+    <style name="Sharing.Setup.Select.None">
+        <item name="people_back">@color/sharing_drawable_visibility_icon_unselected_designating_off</item>
+        <item name="person_front">@color/sharing_drawable_visibility_icon_unselected_designating_off</item>
+    </style>
+    <style name="Sharing.Setup.Select.Some">
+        <item name="people_back">@color/sharing_drawable_visibility_icon_unselected_designating_off</item>
+        <item name="person_front">@color/sharing_drawable_visibility_icon_front_selected</item>
+    </style>
+    <style name="Sharing.Setup.Title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">0dp</item>
+        <item name="android:paddingEnd">0dp</item>
+    </style>
+    <style name="Sharing.Setup.ToolbarOverlay">
+        <item name="actionMenuTextColor">?attr/colorAccent</item>
+        <item name="displayOptions">@null</item>
+    </style>
+    <style name="Sharing.ShareSheet">
+    </style>
+    <style name="Sharing.ShareSheet.Button">
+        <item name="android:textColor">@color/sharing_color_button_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.ShareSheet.Button.Borderless">
+        <item name="android:textColor">?attr/colorAccent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Sharing.ShareSheet.Content">
+        <item name="android:gravity">top|center_vertical</item>
+        <item name="android:layout_gravity">top|left|center_vertical|center_horizontal|center</item>
+        <item name="android:background">@drawable/sharing_bottom_card_bg</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:minHeight">304dp</item>
+    </style>
+    <style name="Sharing.ShareSheet.Content.ImagePreviewLarge">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">140dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+    </style>
+    <style name="Sharing.ShareSheet.Content.ImagePreviewSmall">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+    </style>
+    <style name="Sharing.ShareSheet.PopupOverlay">
+    </style>
+    <style name="Sharing.ShareSheet.ToolbarOverlay">
+        <item name="android:background">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="colorControlNormal">?android:attr/textColorSecondary</item>
+        <item name="displayOptions">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    <style name="SudThemeGlifV2">
+        <item name="android:colorBackground">@color/sud_glif_background_color_dark</item>
+        <item name="android:editTextStyle">@style/SudEditText</item>
+        <item name="android:alertDialogTheme">@style/SudAlertDialogTheme</item>
+        <item name="?0x10104e0">false</item>
+        <item name="sucLightStatusBar">?unknown_attr_ref: 10104e0</item>
+        <item name="sudBackgroundBaseColor">?android:attr/colorBackground</item>
+        <item name="sudBackgroundPatterned">false</item>
+        <item name="sudDividerInsetEnd">?attr/sudMarginSides</item>
+        <item name="sudDividerInsetStart">?attr/sudMarginSides</item>
+        <item name="sudDividerInsetStartNoIcon">?attr/sudMarginSides</item>
+        <item name="sudEditTextBackgroundColor">@color/sud_glif_edit_text_bg_dark_color</item>
+        <item name="sudGlifHeaderGravity">1</item>
+        <item name="sudScrollIndicators">3</item>
+    </style>
+    <style name="SudThemeGlifV2.Light">
+        <item name="android:colorBackground">@color/sud_glif_background_color_light</item>
+        <item name="android:editTextStyle">@style/SudEditText</item>
+        <item name="android:alertDialogTheme">@style/SudAlertDialogTheme.Light</item>
+        <item name="?0x10104e0">true</item>
+        <item name="sucLightStatusBar">?unknown_attr_ref: 10104e0</item>
+        <item name="sudBackgroundBaseColor">?android:attr/colorBackground</item>
+        <item name="sudBackgroundPatterned">false</item>
+        <item name="sudDividerInsetEnd">?attr/sudMarginSides</item>
+        <item name="sudDividerInsetStart">?attr/sudMarginSides</item>
+        <item name="sudDividerInsetStartNoIcon">?attr/sudMarginSides</item>
+        <item name="sudEditTextBackgroundColor">@color/sud_glif_edit_text_bg_light_color</item>
+        <item name="sudGlifHeaderGravity">1</item>
+        <item name="sudScrollIndicators">3</item>
+    </style>
+    <style name="SuwThemeGlifV2">
+        <item name="android:colorBackground">@color/suw_glif_background_color_dark</item>
+        <item name="android:editTextStyle">@style/SuwEditText</item>
+        <item name="android:alertDialogTheme">@style/SuwAlertDialogTheme</item>
+        <item name="?0x10104e0">false</item>
+        <item name="suwBackgroundBaseColor">?android:attr/colorBackground</item>
+        <item name="suwBackgroundPatterned">false</item>
+        <item name="suwDividerInsetEnd">?attr/suwMarginSides</item>
+        <item name="suwDividerInsetStart">?attr/suwMarginSides</item>
+        <item name="suwDividerInsetStartNoIcon">?attr/suwMarginSides</item>
+        <item name="suwEditTextBackgroundColor">@color/suw_glif_edit_text_bg_light_color</item>
+        <item name="suwGlifHeaderGravity">1</item>
+        <item name="suwScrollIndicators">3</item>
+    </style>
+    <style name="SuwThemeGlifV2.Light">
+        <item name="android:colorBackground">@color/suw_glif_background_color_light</item>
+        <item name="android:editTextStyle">@style/SuwEditText</item>
+        <item name="android:alertDialogTheme">@style/SuwAlertDialogTheme.Light</item>
+        <item name="?0x10104e0">true</item>
+        <item name="suwBackgroundBaseColor">?android:attr/colorBackground</item>
+        <item name="suwBackgroundPatterned">false</item>
+        <item name="suwDividerInsetEnd">?attr/suwMarginSides</item>
+        <item name="suwDividerInsetStart">?attr/suwMarginSides</item>
+        <item name="suwDividerInsetStartNoIcon">?attr/suwMarginSides</item>
+        <item name="suwEditTextBackgroundColor">@color/suw_glif_edit_text_bg_light_color</item>
+        <item name="suwGlifHeaderGravity">1</item>
+        <item name="suwScrollIndicators">3</item>
+    </style>
+    <style name="ThemeOverlay.GoogleMaterial.TextInputEditText">
+        <item name="colorControlNormal">@color/google_textfield_indicator_text_color</item>
+    </style>
+    <style name="Widget.GoogleMaterial.ActionBar.Solid">
+        <item name="background">@drawable/google_appbar_surface_background_dark</item>
+        <item name="backgroundSplit">@drawable/google_appbar_surface_background_dark</item>
+        <item name="backgroundStacked">@drawable/google_appbar_surface_background_dark</item>
+    </style>
+    <style name="Widget.GoogleMaterial.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/google_checkbox_ripple</item>
+        <item name="buttonTint">@color/google_selection_control_button_tint</item>
+        <item name="useMaterialThemeColors">false</item>
+    </style>
+    <style name="Widget.GoogleMaterial.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/google_radiobutton_ripple</item>
+        <item name="buttonTint">@color/google_selection_control_button_tint</item>
+        <item name="useMaterialThemeColors">false</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">?attr/popupMenuBackground</item>
+        <item name="android:popupElevation">8dp</item>
+    </style>
+    <style name="play_protect_settings">
+        <item name="?0x10104e0">false</item>
+    </style>
+    <style name="udc.Theme.Fullscreen.WhiteStatusBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">#ffffffff</item>
+        <item name="?0x10104e0">true</item>
+    </style>
+</resources>

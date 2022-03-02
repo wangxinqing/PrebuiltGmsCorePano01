@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="3">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/start_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="From"/>
+        <Button android:id="@+id/start_date_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start Date"/>
+        <Button android:id="@+id/start_time_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start Time"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/end_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="To"/>
+        <Button android:id="@+id/end_date_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End Date"/>
+        <Button android:id="@+id/end_time_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="End Time"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/file_content_text_view_heading_linear_layout" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/file_content_text_view_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dump File Content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dump_linear_layout" android:padding="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ScrollView android:id="@+id/ScrollView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true">
+            <HorizontalScrollView android:id="@+id/HorizontalScrollView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true">
+                <TextView android:id="@+id/dump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1dp" android:maxLines="10" android:freezesText="true"/>
+            </HorizontalScrollView>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/showDump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Show Dump"/>
+        <Button android:id="@+id/shareDump" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Share Dump"/>
+    </LinearLayout>
+</LinearLayout>

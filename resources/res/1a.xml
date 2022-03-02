@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@null">
+    <ListView android:listPreferredItemHeight="48dp" android:id="@+id/list" android:layout_width="match_parent" android:layout_height="0px" android:divider="@null" android:dividerHeight="0dp" android:layout_weight="1"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0px" android:layout_weight="1">
+        <TextView android:id="@+id/empty_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gf_no_data"/>
+    </LinearLayout>
+</LinearLayout>

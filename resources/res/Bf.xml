@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.gms.smart_profile.SmartProfileContainerView xmlns:chimera="http://schemas.android.com/chimera" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="https://developers.google.com/now/actions/1.1" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/smart_profile_container" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@+id/sp_background" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.google.android.gms.smart_profile.header.view.HeaderView android:id="@+id/header_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:outlineProvider="bounds"/>
+            <com.google.android.gms.smart_profile.InterceptableFrameLayout android:orientation="vertical" android:background="@color/cards_container_background_color" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <com.google.android.gms.smart_profile.InterceptableScrollView android:id="@+id/scrollview" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/sp_card_content" android:paddingTop="@dimen/cards_container_paddingTop" android:paddingBottom="@dimen/gm_cards_container_paddingBottomFix" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <include layout="@layout/gm_blocked_learn_more"/>
+                        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/content_progress_container" android:padding="@dimen/profile_card_progress_container_padding" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <ProgressBar android:layout_width="@dimen/profile_card_progress_size" android:layout_height="@dimen/profile_card_progress_size" android:indeterminate="true" style="?android:attr/progressBarStyle"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.gms.smart_profile.InterceptableScrollView>
+                <View android:orientation="horizontal" android:id="@+id/pre_lollipop_header_shadow" android:background="@drawable/header_shadow_gradient" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/header_shadow_elevation"/>
+            </com.google.android.gms.smart_profile.InterceptableFrameLayout>
+        </LinearLayout>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:id="@+id/fab" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fab_margin" android:tint="@android:color/white" android:contentDescription="@string/profile_header_toolbar_add_contact_label" app:backgroundTint="@color/fab_background" app:srcCompat="@drawable/quantum_ic_person_add_vd_theme_24"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.google.android.gms.smart_profile.SmartProfileContainerView>

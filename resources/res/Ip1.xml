@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:chimera="http://schemas.android.com/chimera" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="@integer/gh_chat_message_component_weight_sum">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/gh_transcript_message_spacing_component" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="@integer/gh_chat_message_spacing_layout_weight"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/gh_transcript_message_item_component" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="@integer/gh_chat_message_item_layout_weight"/>
+</LinearLayout>
